@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Navigation from "@/components/Navigation";
+import Nav from "@/components/Nav";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="grid grid-cols-6">
-        <Navigation />
+        <Nav />
         <main className="col-span-5">{children}</main>        
       </body>
     </html>
