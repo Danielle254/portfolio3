@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Nav from "@/components/Nav";
+import Sidebar from "@/components/Sidebar";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,8 +15,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="grid grid-cols-6">
-        <Nav />
-        <main className="col-span-5">{children}</main>        
+        <Sidebar />
+        <main className="col-span-5 bg-gradient-to-br from-violet-950 to-pink-950 to-95% min-h-screen">{children}</main>        
       </body>
     </html>
   );
