@@ -6,6 +6,15 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        'main-purple': '#522258',
+        'main-pink': '#a73974',
+        'accent-yellow': '#f8d279',
+        'light-purple': '#f5eefc'
+      }
+    }
+  },
   plugins: [],
 } satisfies Config;
