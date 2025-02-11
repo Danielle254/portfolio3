@@ -1,14 +1,11 @@
-import Button from "@/components/Button";
+import About from './About'
+import Projects from './Projects'
 
 export default function Home() {
   return (
-    <div className="max-w-5xl mx-auto min-h-screen text-center text-gray-50">
-      <h2 className="text-2xl ">Danielle Lindblom</h2>
-      <h3>Frontend Developer</h3>
-      <Button 
-      style='primary' 
-      text='Button Text' 
-      />
+    <div className="max-w-5xl mx-auto h-full w-full  overflow-y-scroll text-center text-gray-50">
+      <About />
+      <Projects />
     </div>
   );
 }

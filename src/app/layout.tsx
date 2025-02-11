@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="lg:grid lg:grid-cols-6">
         <Sidebar />
-        <main className="lg:col-span-5 bg-gradient-to-b from-main-purple from-60% to-main-pink min-h-screen">{children}</main>        
+        <main className="lg:col-span-5 bg-gradient-to-br from-main-purple from-70% to-main-pink h-screen">{children}</main>        
       </body>
     </html>
   );
