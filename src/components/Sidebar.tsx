@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
 import Social from './Social'
-import profile from '../assets/profile.jpeg'
+import profile from '../assets/profile.png'
 import Image from 'next/image'
 
 export default function Sidebar() {
