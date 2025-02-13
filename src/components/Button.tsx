@@ -1,15 +1,19 @@
+import { getTargetTriple } from 'next/dist/build/swc/generated-native';
 import React from 'react'
 
 interface ButtonProps {
     text: string;
     style: string;
     type: string;
+    destination: string;
+    newWindow: boolean;
 }
 
-export default function Button({text, style, type}: ButtonProps) {
-    const base = "px-2 py-1 rounded-sm text-lg font-bold shadow border-2"
+export default function Button({text, style, type, destination, newWindow}: ButtonProps) {
+    const base = "px-2 py-1 rounded-sm text-lg shadow border-2 cursor-pointer"
     const primary = base + " border-accent-orange text-accent-orange";
     const secondary = base + " border-main-pink text-main-pink";
+    let target = "_self";
 
   switch (type) {
     case 'button':
@@ -19,8 +23,11 @@ export default function Button({text, style, type}: ButtonProps) {
         </button>
       )
     case 'link':
+      if (newWindow) {
+        target = "_blank";
+      }
       return (
-        <a className={style === 'primary' ? primary : secondary}>
+        <a className={style === 'primary' ? primary : secondary} href={destination} target={target}>
           {text}
         </a>
       )
