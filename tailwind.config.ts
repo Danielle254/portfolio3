@@ -9,9 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'main-purple': '#522258',
+        'main-purple': '#37183b',
         'main-pink': '#a73974',
-        'accent-yellow': '#f8d279',
+        'accent-orange': '#ffbd59',
         'light-purple': '#f5eefc'
       }
     }
