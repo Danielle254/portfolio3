@@ -1,10 +1,14 @@
+'use client'
+
 import React from 'react'
+import { useState } from 'react'
 import Nav from './Nav'
 import Social from './Social'
 import profile from '../assets/profile.png'
 import Image from 'next/image'
 
 export default function Sidebar() {
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
     <div className='bg-gray-50 lg-col-span-1 h-screen flex flex-col justify-between py-12 items-center'>
