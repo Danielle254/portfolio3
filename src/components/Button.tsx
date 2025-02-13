@@ -11,7 +11,7 @@ interface ButtonProps {
 
 export default function Button({text, style, type, destination, newWindow}: ButtonProps) {
     const base = "px-2 py-1 rounded-sm text-lg shadow border-2 cursor-pointer"
-    const primary = base + " border-accent-orange text-accent-orange";
+    const primary = base + " border-accent-orange text-accent-orange hover:bg-accent-orange hover:text-main-purple hover:bg-opacity-60";
     const secondary = base + " border-main-pink text-main-pink";
     let target = "_self";
 
