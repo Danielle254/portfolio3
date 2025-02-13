@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <div className='h-full md:min-h-screen max-w-4xl mx-auto py-8 px-2' id='about-section'>
-      <h2 className='text-xl'>Hi, I'm Danielle</h2>
+      <h2 className='text-2xl'>Hi, I'm Danielle</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laborum nostrum, atque temporibus mollitia, similique quibusdam nobis blanditiis maiores nihil velit! Quo provident cumque, animi repellat corporis possimus quis expedita.</p>
     </div>
   )
