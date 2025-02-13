@@ -6,10 +6,10 @@ export default function Nav({toggleDrawerOpen}: {toggleDrawerOpen: () => void}) 
         <nav>
           <ul className='flex flex-col gap-10 pt-16 text-lg font-bold text-center'>
             <li>
-              <Link href='#about-section' onClick={toggleDrawerOpen}>About</Link>
+              <Link href='/#about-section' onClick={toggleDrawerOpen}>About</Link>
             </li>
             <li>
-              <Link href='#projects-section' onClick={toggleDrawerOpen}>Projects</Link>
+              <Link href='/#projects-section' onClick={toggleDrawerOpen}>Projects</Link>
             </li>
             <li>
               <Link href='/resume.pdf' target='_blank' locale={false} className='flex flex-row items-center gap-1'>Resume
