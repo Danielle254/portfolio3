@@ -19,7 +19,7 @@ export default function Sidebar() {
     <>
       <div className='hidden bg-gray-50 h-screen md:flex flex-col justify-between py-12 items-center col-span-1'>
         <div className='flex flex-col gap-4 items-center'>
-          <h1 className='text-lg font-bold'>Danielle Lindblom</h1>
+          <h1 className='text-lg font-bold text-center'>Danielle Lindblom</h1>
           <Image
           src={profile}
           alt='Danielle Lindblom profile picture'
