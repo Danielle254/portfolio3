@@ -7,7 +7,7 @@ import Nav from './Nav'
 type DrawerProps = {
     isOpen: boolean;
     onClose: () => void
-  }
+}
 
 export default function MobileDrawer({isOpen, onClose}: DrawerProps) {
     
