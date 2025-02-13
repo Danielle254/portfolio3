@@ -27,13 +27,15 @@ export default function Sidebar() {
           height={100}
           />
         </div>
-        <Nav />
+        <Nav 
+        toggleDrawerOpen={toggleDrawerOpen}
+        />
         <Social />
       </div>
       <div className='md:hidden flex flex-row justify-between m-4'>
         <MobileDrawer 
         isOpen={drawerOpen}
-        onClose={toggleDrawerOpen}
+        toggleDrawerOpen={toggleDrawerOpen}
         />
         <Image
           src={profile}
