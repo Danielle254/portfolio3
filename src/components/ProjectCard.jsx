@@ -6,7 +6,7 @@ import Button from './Button'
 export default function ProjectCard({project, index}) {
 
   return (
-    <div className='bg-light-purple bg-opacity-10 flex flex-col items-center text-light-purple rounded shadow max-w-4xl p-4 mx-2 md:px-36 md:py-8 my-10' key={index}>
+    <div className='bg-light-purple bg-opacity-10 flex flex-col items-center text-light-purple rounded shadow max-w-4xl p-4 mx-2 md:px-36 md:py-8 my-6 md:my-10' key={index}>
       <h3 className='text-3xl font-bold mb-8'>{project.title}</h3>
       <p className='text-lg text-left'>{project.summary}</p>      
       <Image 
