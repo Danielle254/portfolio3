@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div className='h-full max-w-5xl mx-auto' id='projects-section'>
+    <div className='h-full md:min-h-screen max-w-4xl mx-auto py-8 px-2' id='projects-section'>
       <h2 className='text-xl'>Projects</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum facere odio voluptas minus rem non quos ad laboriosam nisi? Nulla tempora illo placeat quidem veniam rerum eveniet, nihil deleniti praesentium.</p>
     </div>

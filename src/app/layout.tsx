@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="flex flex-col h-screen md:grid md:grid-cols-6">
+    <html lang="en" className="scroll-smooth">
+      <body className="flex flex-col h-screen md:grid md:grid-cols-6 md:h-full">
         <Sidebar />
         <main className="overflow-y-scroll md:col-span-5 bg-gradient-to-br from-main-purple from-70% to-main-pink h-screen">{children}</main>        
       </body>
