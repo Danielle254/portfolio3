@@ -13,6 +13,9 @@ export default {
         'main-pink': '#a73974',
         'accent-orange': '#ffbd59',
         'light-purple': '#f5eefc'
+      },
+      fontFamily: {
+        special: ['var(--font-caveat)']
       }
     }
   },
