@@ -20,6 +20,7 @@ export default function Sidebar() {
       <div className='hidden bg-light-purple h-screen md:flex flex-col justify-between py-12 items-center col-span-1 text-main-purple'>
         <div className='flex flex-col gap-4 items-center'>
           <h1 className='text-lg font-bold text-center'>Danielle Lindblom</h1>
+          <h2 className='text-sm font-bold text-main-pink'>Frontend Developer</h2>
           <Image
           src={profile}
           alt='Danielle Lindblom profile picture'
@@ -32,7 +33,7 @@ export default function Sidebar() {
         />
         <Social />
       </div>
-      <div className='md:hidden flex flex-row justify-between m-4'>
+      <div className='md:hidden flex flex-row justify-between my-4 mx-6'>
         <MobileDrawer 
         isOpen={drawerOpen}
         toggleDrawerOpen={toggleDrawerOpen}
