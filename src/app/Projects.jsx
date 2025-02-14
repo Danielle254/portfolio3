@@ -34,9 +34,9 @@ const projectsList = projectData.map((project, index) => {
 
 export default function Projects() {
   return (
-    <div className='max-w-5xl mx-auto py-8 px-2 md:px-0' id='projects-section'>
+    <div className='max-w-5xl mx-auto pt-8 mb-16 px-2 md:px-0' id='projects-section'>
       <h2 className='text-4xl mb-10 text-accent-orange'>Projects</h2>
-      <div className='flex flex-col gap-10 items-center'>
+      <div className='flex flex-col gap-10 items-center mb-8'>
         {projectsList}
       </div>
       <Button
