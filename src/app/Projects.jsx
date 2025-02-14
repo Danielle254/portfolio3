@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
+import Button from '@/components/Button';
 
 const projectData = [
   {
@@ -33,11 +34,18 @@ const projectsList = projectData.map((project, index) => {
 
 export default function Projects() {
   return (
-    <div className='h-full max-w-5xl mx-auto py-8 px-2' id='projects-section'>
-      <h2 className='text-4xl mb-10'>Projects</h2>
+    <div className='h-full max-w-5xl mx-auto py-8 px-2 md:px-0' id='projects-section'>
+      <h2 className='text-4xl mb-10 text-accent-orange'>Projects</h2>
       <div className='flex flex-col gap-10 items-center'>
         {projectsList}
-      </div>      
+      </div>
+      <Button
+        text='More Projects'
+        style='secondary'
+        type='link'
+        destination='/gallery'
+        newWindow={false}
+      />
     </div>
   )
 }
