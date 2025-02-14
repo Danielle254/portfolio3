@@ -1,5 +1,6 @@
 import React from 'react'
 import { Caveat } from 'next/font/google'
+import Button from '@/components/Button';
 
 const caveat = Caveat({ subsets: ['latin'], weight: '400', variable: '--font-caveat' });
 
@@ -13,6 +14,22 @@ export default function About() {
       </div>
       <p className='text-md md:text-lg mt-8'>I love working with <span className='text-accent-orange font-bold'>React,</span> <span className='text-accent-orange font-bold'>TypeScript,</span> and <span className='text-accent-orange font-bold'>Next.js.</span></p>
       <p className='text-md md:text-lg'>I have a diverse background in behavior science, project management, and instruction.</p>
+      <div className='flex flex-row gap-8 justify-center mt-8'>
+        <Button
+          text='View Projects'
+          style='primary'
+          type='link'
+          destination='/#projects-section'
+          newWindow={false}
+        />
+        <Button
+          text='Connect'
+          style='primary'
+          type='button'
+          destination='/#projects-section'
+          newWindow={false}
+        />
+      </div>
     </div>
   )
 }
