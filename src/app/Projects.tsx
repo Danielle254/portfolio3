@@ -1,6 +1,10 @@
+"use client"
+
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 import Button from '@/components/Button';
+import { motion } from 'motion/react'
+
 
 const projectData = [
   {
@@ -35,10 +39,21 @@ const projectsList = projectData.map((project) => {
 
 export default function Projects() {
   return (
-    <div className='max-w-5xl mx-auto pt-8 mb-24 px-2 md:px-0' id='projects-section'>
+    <motion.div
+    initial={{ opacity: 0}}
+    whileInView={{ opacity: 1}}
+    transition={{duration: 0.7}}
+    >
+    <section className='max-w-5xl mx-auto pt-8 mb-24 px-2 md:px-0' id='projects-section'>
       <h2 className='text-4xl mb-10 text-accent-orange'>Portfolio</h2>
       <div className='flex flex-col gap-10 items-center mb-8'>
+      <motion.div
+        initial={{ opacity: 0}}
+        whileInView={{ opacity: 1}}
+        transition={{duration: 0.7}}
+      >
         {projectsList}
+      </motion.div>
       </div>
       <Button
         text={'More Projects'}
@@ -47,6 +62,7 @@ export default function Projects() {
         destination={'/gallery'}
         newWindow={false}
       />
-    </div>
+    </section>
+    </motion.div>
   )
 }
