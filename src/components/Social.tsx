@@ -1,7 +1,7 @@
 import React from 'react'
-import emailIcon from '../assets/email.png'
-import githubIcon from '../assets/github.png'
-import linkedinIcon from '../assets/linkedin.png'
+import emailIcon from '../../public/socialIcons/email.png'
+import githubIcon from '../../public/socialIcons/github.png'
+import linkedinIcon from '../../public/socialIcons/linkedin.png'
 
 export default function Social() {
   return (
