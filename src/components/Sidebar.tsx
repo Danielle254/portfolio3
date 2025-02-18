@@ -4,7 +4,7 @@ import React from 'react'
 import { useState } from 'react'
 import Nav from './Nav'
 import Social from './Social'
-import profile from '../assets/profile.png'
+import profile from '../../public/profile.png'
 import Image from 'next/image'
 import MobileDrawer from './MobileDrawer'
 
