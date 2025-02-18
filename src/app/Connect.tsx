@@ -9,7 +9,7 @@ import Footer from './Footer'
 
 export default function Connect() {
   return (
-    <div className='max-w-5xl mx-auto flex flex-col items-center pt-8 pb-6 md:pb-8 px-2 md:px-0' id='connect-section' data-aos="fade-up">
+    <div className='max-w-5xl mx-auto flex flex-col items-center pt-8 pb-6 md:pb-8 px-2 md:px-0' id='connect-section'>
       <h2 className='text-4xl mb-10 md:mb-16 text-accent-orange'>Connect</h2>
       <ul className='text-light-purple flex flex-col gap-1 md:flex-row md:gap-10'>
         <li className='text-lg hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded px-2 py-1'><a href="https://www.linkedin.com/in/danielle-lindblom/" className='flex flex-row gap-4 md:gap-2 items-center'><img src={linkedinIcon.src} className='w-6 h-6' alt=''/>LinkedIn 

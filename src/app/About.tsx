@@ -6,7 +6,7 @@ const caveat = Caveat({ subsets: ['latin'], weight: '400', variable: '--font-cav
 
 export default function About() {
   return (
-    <div className='h-full md:min-h-screen max-w-4xl mx-auto py-8 px-2' id='about-section' data-aos="fade-up">
+    <div className='h-full md:min-h-screen max-w-4xl mx-auto py-8 px-2' id='about-section'>
       <h2 className={`text-5xl ${caveat.variable} font-special my-4 md:mb-2`}>Hi, I'm Danielle</h2>
       <h3 className='text-xl mb-8'>a <span className='font-bold text-accent-orange'>Frontend Developer</span> passionate about accessibility.</h3>
       <div className='relative max-w-2xl mx-auto h-0 pb-[56%] lg:pb-[40%] border border-main-pink rounded'>

@@ -35,7 +35,7 @@ const projectsList = projectData.map((project) => {
 
 export default function Projects() {
   return (
-    <div className='max-w-5xl mx-auto pt-8 mb-24 px-2 md:px-0' id='projects-section' data-aos="fade-up">
+    <div className='max-w-5xl mx-auto pt-8 mb-24 px-2 md:px-0' id='projects-section'>
       <h2 className='text-4xl mb-10 text-accent-orange'>Portfolio</h2>
       <div className='flex flex-col gap-10 items-center mb-8'>
         {projectsList}
