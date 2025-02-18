@@ -25,8 +25,8 @@ export default function About() {
         <Button
           text='Connect'
           style='primary'
-          type='button'
-          destination='/#projects-section'
+          type='link'
+          destination='/#connect-section'
           newWindow={false}
         />
       </div>
