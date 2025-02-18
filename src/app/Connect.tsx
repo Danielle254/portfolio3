@@ -12,18 +12,19 @@ import { motion } from 'motion/react'
 
 export default function Connect() {
   return (
-    <motion.div
+    <motion.section
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{duration: 0.7}}
+    className='max-w-5xl mx-auto flex flex-col items-center pt-8 pb-6 md:pb-8 px-2 md:px-0' 
+    id='connect-section'
     >
-    <section className='max-w-5xl mx-auto flex flex-col items-center pt-8 pb-6 md:pb-8 px-2 md:px-0' id='connect-section'>
       <h2 className='text-4xl mb-10 md:mb-16 text-accent-orange'>Connect</h2>
-      <ul className='text-light-purple flex flex-col gap-1 md:flex-row md:gap-10'>
-      <motion.div
+      <motion.ul
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1}}
         transition={{duration: 0.7}}
+        className='text-light-purple flex flex-col gap-1 md:flex-row md:gap-10'
       >
         <li className='text-lg hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded px-2 py-1'><a href="https://www.linkedin.com/in/danielle-lindblom/" className='flex flex-row gap-4 md:gap-2 items-center'><img src={linkedinIcon.src} className='w-6 h-6' alt=''/>LinkedIn 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4"  aria-hidden='true'>
@@ -38,13 +39,12 @@ export default function Connect() {
         <li className='text-lg hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded px-2 py-1'><a href="mailto:danielle.lindblom@gmail.com" className='flex flex-row gap-4 md:gap-2 items-center
         '><img src={emailIcon.src} className='w-6 h-6' alt=''/>Email</a>
         </li>
-        </motion.div>
-      </ul>
-      <div className='flex flex-col items-center mt-8 mb-6 bg-light-purple bg-opacity-10 rounded shadow px-10 py-6 mx-2 md:mx-0'>
+      </motion.ul>
       <motion.div
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1}}
         transition={{duration: 0.7}}
+        className='flex flex-col items-center mt-8 mb-6 bg-light-purple bg-opacity-10 rounded shadow px-10 py-6 mx-2 md:mx-0'
       >
         <Image
           src={montana}
@@ -61,9 +61,7 @@ export default function Connect() {
           newWindow={true}
         />
       </motion.div>
-      </div>
       <Footer />
-    </section>
-    </motion.div>
+    </motion.section>
   )
 }

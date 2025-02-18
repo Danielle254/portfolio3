@@ -39,22 +39,22 @@ const projectsList = projectData.map((project) => {
 
 export default function Projects() {
   return (
-    <motion.div
+    <motion.section
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{duration: 0.7}}
+    className='max-w-5xl mx-auto pt-8 mb-24 px-2 md:px-0'
+    id='projects-section'
     >
-    <section className='max-w-5xl mx-auto pt-8 mb-24 px-2 md:px-0' id='projects-section'>
       <h2 className='text-4xl mb-10 text-accent-orange'>Portfolio</h2>
-      <div className='flex flex-col gap-10 items-center mb-8'>
       <motion.div
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1}}
         transition={{duration: 0.7}}
+        className='flex flex-col gap-10 items-center mb-8'
       >
         {projectsList}
       </motion.div>
-      </div>
       <Button
         text={'More Projects'}
         style={'secondary'}
@@ -62,7 +62,6 @@ export default function Projects() {
         destination={'/gallery'}
         newWindow={false}
       />
-    </section>
-    </motion.div>
+    </motion.section>
   )
 }
