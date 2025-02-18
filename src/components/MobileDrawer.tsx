@@ -1,6 +1,6 @@
 import React from 'react'
 import Social from './Social'
-import profile from '../assets/profile.png'
+import profile from '../../public/profile.png'
 import Image from 'next/image'
 import Nav from './Nav'
 
@@ -20,7 +20,6 @@ export default function MobileDrawer({isOpen, toggleDrawerOpen}: DrawerProps) {
         </button>
         <div className='flex flex-col gap-4 items-center'>
             <h1 className='text-lg font-bold'>Danielle Lindblom</h1>
-            <h2 className='text-sm font-bold text-main-pink'>Frontend Developer</h2>
             <Image
             src={profile}
             alt='Danielle Lindblom profile picture'
