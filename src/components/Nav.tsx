@@ -9,7 +9,7 @@ export default function Nav({toggleDrawerOpen}: {toggleDrawerOpen: () => void}) 
               <Link href='/#about-section' onClick={toggleDrawerOpen}>About</Link>
             </li>
             <li className='hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded'>
-              <Link href='/#projects-section' onClick={toggleDrawerOpen}>Projects</Link>
+              <Link href='/#projects-section' onClick={toggleDrawerOpen}>Portfolio</Link>
             </li>
             <li className='hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded hover:px-1'>
               <Link href='/resume.pdf' target='_blank' locale={false} className='flex flex-row items-center gap-1'>Resume
