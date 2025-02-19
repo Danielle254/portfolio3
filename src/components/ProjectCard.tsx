@@ -5,7 +5,19 @@ import Image from 'next/image'
 import Button from './Button'
 import { motion } from 'motion/react'
 
-export default function ProjectCard({project}) {
+interface Project {
+    id: number,
+    title: string,
+    summary: string,
+    img: string,
+    alt: string,
+    tags: string[],
+    link1: string,
+    link2: string
+}
+
+export default function ProjectCard({project}: {project: Project}) {
+
 
   return (
     <motion.div
@@ -27,7 +39,7 @@ export default function ProjectCard({project}) {
       />      
       <ul className='flex flex-row font-bold flex-wrap text-md md:text-lg list-[circle] gap-x-8 justify-center mb-8'>
         {
-          project.tags.map((tag) => {return <li>{tag}</li>})
+          project.tags.map((tag: string, index: number) => {return <li key={index}>{tag}</li>})
         }
       </ul>
       <div className="flex flex-row gap-4 flex-wrap justify-center">
