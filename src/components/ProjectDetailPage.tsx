@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import Button from './Button'
 import { motion } from 'motion/react'
 import {RotatingLines} from 'react-loader-spinner'
-import { div } from 'motion/react-client'
 
 type ProjectProps = {
     title: string,
