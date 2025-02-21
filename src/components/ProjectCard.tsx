@@ -25,7 +25,6 @@ export default function ProjectCard({project}: {project: Project}) {
     whileInView={{ opacity: 1}}
     transition={{duration: 0.7}}
     className='bg-light-purple bg-opacity-10 flex flex-col items-center text-light-purple rounded shadow max-w-4xl p-4 mx-2 md:px-36 md:py-8 my-6 md:my-10'
-    key={project.id}
     >
       <h3 className='text-2xl md:text-3xl font-bold mb-8'>{project.title}</h3>
       <p className='text-md md:text-lg text-left'>{project.summary}</p>      

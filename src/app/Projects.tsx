@@ -33,6 +33,7 @@ const projectsList = projectData.map((project) => {
   return (
     <ProjectCard
     project={project}
+    key={project.id}
     />
   )
 });
