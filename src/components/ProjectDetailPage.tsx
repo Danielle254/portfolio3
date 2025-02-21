@@ -6,6 +6,7 @@ type ProjectProps = {
     demo: string,
     description: string,
     tech: string[],
+    heading: string,
     features: string[],
     skills: string[],
     learnings: string,
@@ -15,7 +16,7 @@ type ProjectProps = {
 
 export default function ProjectDetailPage({project}: {project: ProjectProps}) {
   return (
-    <div className='max-w-3xl mx-auto pt-8 mb-24 px-4 md:px-0 text-light-purple text-left'>
+    <div className='max-w-3xl mx-auto pt-8 mb-24 px-4 lg:px-0 text-light-purple text-left'>
         <h2 className='text-4xl mb-10 text-accent-orange text-center'>{project.title}</h2>
         <h3 className='text-2xl font-bold mb-4'>Demo:</h3>
         <div className='relative mx-auto h-0 pb-[56%] lg:pb-[56%]'>
@@ -29,7 +30,7 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
         </section>
         <p className='text-lg/8 whitespace-pre-line'>{project.description}</p>
         <section>
-            <h3 className='text-2xl font-bold mt-10 mb-4'>Key Features: </h3>
+            <h3 className='text-2xl font-bold mt-10 mb-4'>{project.heading}</h3>
             <ul className='list-disc text-lg/8 ml-6 marker:text-accent-orange'>
                 {project.features.map((each, index) => <li key={index} className=''>{each}</li>)}
             </ul>

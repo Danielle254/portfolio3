@@ -10,6 +10,7 @@ const sdatProject = {
   description: `This is what I'd call my capstone project. It was broken down into multiple versions and deployments, and is now a multi-user, public application utilizing a database and multiple APIs.
   
   The idea for this project came from a personal problem. As a service dog handler, I was having difficulty remembering which businesses (particularly restuarants) I'd visited where I'd had a good experience. I built this React application using the Google Maps interface to allow users like myself to easily search for and add information about a local business as it relates to the comfort and safety of my service dog.`,
+  heading: "Key Features",
   features: ["Login with a Google Account", "Search for a business with Google Maps Autocomplete API", "Rate, review, and save private and public notes about that business with a custom form", "See all existing businesses that have been rated in the library", "Read about the app on the About page", "Filter your places by your favorites"],
   skills: ["Working with multiple APIs", "Managing user data in a database", "CRUD app - Create, Read, Update, Delete", "Multiple page app with React Router", "End user testing and incorporating feedback"],
   learnings: `This project pushed me out of my comfort zone, especially when working with the Google Maps API in React. It was difficult to find documentation to suite my needs, and I did a lot of problem solving by looking at examples of what others had done.
