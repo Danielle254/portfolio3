@@ -3,6 +3,7 @@ import Social from './Social'
 import profile from '../../public/profile.png'
 import Image from 'next/image'
 import Nav from './Nav'
+import Link from 'next/link'
 
 type DrawerProps = {
     isOpen: boolean;
@@ -20,12 +21,15 @@ export default function MobileDrawer({isOpen, toggleDrawerOpen}: DrawerProps) {
         </button>
         <div className='flex flex-col gap-4 items-center'>
             <h1 className='text-lg font-bold'>Danielle Lindblom</h1>
-            <Image
-            src={profile}
-            alt='Danielle Lindblom profile picture'
-            style={{borderRadius: '50%', border: '1px solid black'}}
-            height={100}
-            />
+            <Link href={'/'}>
+              <Image
+              src={profile}
+              alt='Danielle Lindblom profile picture'
+              style={{borderRadius: '50%', border: '1px solid black'}}
+              height={100}
+              />
+            </Link>
+
         </div>
         <Nav 
         toggleDrawerOpen={toggleDrawerOpen}
