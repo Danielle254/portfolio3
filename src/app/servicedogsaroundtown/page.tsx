@@ -26,15 +26,18 @@ const sdatProject = {
   links: [
     {
       title: "View Site",
-      link: 'https://servicedogsaroundtown.vercel.app/'
+      link: 'https://servicedogsaroundtown.vercel.app/',
+      type: 'primary'
     },
     {
       title: "View Code",
-      link: 'https://github.com/Danielle254/ServiceDogsAroundTown_v2'
+      link: 'https://github.com/Danielle254/ServiceDogsAroundTown_v2',
+      type: 'secondary'
     },
     {
-      title: "Project Board",
-      link: "https://github.com/users/Danielle254/projects/1"
+      title: "View Project Board",
+      link: "https://github.com/users/Danielle254/projects/1",
+      type: 'secondary'
     }
   ]
 }
