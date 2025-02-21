@@ -14,7 +14,7 @@ const projectData = [
     img: "/projectImages/SDATcover.png",
     alt: "screenshot of service dogs around town project",
     tags: ["React.js", "JavaScript", "Tailwind CSS", "Google Maps API", "Firebase", "Accessibility"],
-    link1: "/sdat",
+    link1: "/servicedogsaroundtown",
     link2: "https://servicedogsaroundtown.vercel.app/"
   },
   {
@@ -24,7 +24,7 @@ const projectData = [
     img: "/projectImages/GIScover.png",
     alt: "screenshot of service dogs around town project",
     tags: ["Next.js", "TypeScript", "React.js", "shadcn/ui", "Jest/React Testing Library"],
-    link1: "/gis",
+    link1: "/gridironsurvivor",
     link2: "https://www.staging.gridironsurvivor.com/"
   }
 ]
