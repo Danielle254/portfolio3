@@ -15,7 +15,7 @@ type ProjectProps = {
     skills: string[],
     learnings: string,
     future: string,
-    links: {title: string, link: string}[]
+    links: {title: string, link: string, type: string}[]
 }
 
 export default function ProjectDetailPage({project}: {project: ProjectProps}) {
@@ -101,7 +101,7 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
             {project.links.map((button, index) => 
                 <Button
                 text={button.title}
-                style='primary'
+                style={button.type}
                 type='link'
                 destination={button.link}
                 newWindow={true}
