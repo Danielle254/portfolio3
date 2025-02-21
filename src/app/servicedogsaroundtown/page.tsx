@@ -22,11 +22,20 @@ const sdatProject = {
   Another big item on the To Do list is to allow multiple users to rate and review the same business location.
   
   I've made efforts towards soliciting real end users for testing, and I'm eager to hear their feedback and experiences using the site.`,
-  links: {
-    "GitHub Repo": 'https://github.com/Danielle254/ServiceDogsAroundTown_v2',
-    "Live Site": 'https://servicedogsaroundtown.vercel.app/',
-    "project board": "https://github.com/users/Danielle254/projects/1"
-  }
+  links: [
+    {
+      title: "GitHub Repo",
+      link: 'https://github.com/Danielle254/ServiceDogsAroundTown_v2'
+    },
+    {
+      title: "Live Site",
+      link: 'https://servicedogsaroundtown.vercel.app/'
+    },
+    {
+      title: "Project Board",
+      link: "https://github.com/users/Danielle254/projects/1"
+    }
+  ]
 }
 
 

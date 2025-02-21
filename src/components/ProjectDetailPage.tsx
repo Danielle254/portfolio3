@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 type ProjectProps = {
     title: string,
@@ -9,7 +10,7 @@ type ProjectProps = {
     skills: string[],
     learnings: string,
     future: string,
-    links: {}
+    links: {title: string, link: string}[]
 }
 
 export default function ProjectDetailPage({project}: {project: ProjectProps}) {
@@ -47,6 +48,18 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
             <h3 className='text-2xl font-bold mt-10 mb-4'>Future Enhancements: </h3>
             <p className='text-lg/8 whitespace-pre-line'>{project.future}</p>
         </section>
+        <div className='flex flex-row flex-wrap gap-8 justify-center mt-8'>
+            {project.links.map((button, index) => 
+                <Button
+                text={button.title}
+                style='primary'
+                type='link'
+                destination={button.link}
+                newWindow={true}
+                key={index}
+                />
+            )}
+        </div>
     </div>
   )
 }
