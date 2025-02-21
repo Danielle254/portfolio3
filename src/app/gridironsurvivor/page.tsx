@@ -21,12 +21,12 @@ const gisProject = {
   future: `The team is shifting to a different project going forward - a Secret Santa web application that will be launched as a paid SaaS product late 2025. This project utilizes a similar tech stack as well as an AI API for customized gift recommendations.`,
   links: [
     {
-      title: "GitHub Repo",
-      link: 'https://github.com/LetsGetTechnical/gridiron-survivor'
+      title: "View Site",
+      link: 'https://staging.gridironsurvivor.com/'
     },
     {
-      title: "Live Site",
-      link: 'https://www.staging.gridironsurvivor.com/'
+      title: "View Code",
+      link: 'https://github.com/LetsGetTechnical/gridiron-survivor'
     },
     {
       title: "Pull Requests",

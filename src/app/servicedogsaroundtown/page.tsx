@@ -25,12 +25,12 @@ const sdatProject = {
   I've made efforts towards soliciting real end users for testing, and I'm eager to hear their feedback and experiences using the site.`,
   links: [
     {
-      title: "GitHub Repo",
-      link: 'https://github.com/Danielle254/ServiceDogsAroundTown_v2'
+      title: "View Site",
+      link: 'https://servicedogsaroundtown.vercel.app/'
     },
     {
-      title: "Live Site",
-      link: 'https://servicedogsaroundtown.vercel.app/'
+      title: "View Code",
+      link: 'https://github.com/Danielle254/ServiceDogsAroundTown_v2'
     },
     {
       title: "Project Board",
