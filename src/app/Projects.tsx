@@ -10,20 +10,22 @@ const projectData = [
   {
     id: 1,  
     title: "Service Dogs Around Town",
+    date: "Aug - Dec 2024",
     summary: "A personal project that helps service dog handlers (persons with disabilities) navigate their local communities, tracking information that relates to the comfort and safety of their service animals.",
     img: "/projectImages/SDATcover.png",
     alt: "screenshot of service dogs around town project",
-    tags: ["React.js", "JavaScript", "Tailwind CSS", "Google Maps API", "Firebase", "Accessibility"],
+    tags: ["React.js", "JavaScript", "Tailwind CSS", "Google Maps API", "Firebase", "Accessibility", "React Router"],
     link1: "/servicedogsaroundtown",
     link2: "https://servicedogsaroundtown.vercel.app/"
   },
   {
     id: 2,
     title: "Gridiron Survivor",
+    date: "Oct 2024 - Present",
     summary: "Football survivor pool web application built as part of an apprenticeship program. Team project involving agile sprint planning, unit testing, code reviews, and a real customer.",
     img: "/projectImages/GIScover.png",
     alt: "screenshot of service dogs around town project",
-    tags: ["Next.js", "TypeScript", "React.js", "shadcn/ui", "Jest/React Testing Library"],
+    tags: ["Next.js", "TypeScript", "React.js", "shadcn/ui", "Tailwind CSS", "Jest", "React Testing Library", "Accessibility"],
     link1: "/gridironsurvivor",
     link2: "https://www.staging.gridironsurvivor.com/"
   }

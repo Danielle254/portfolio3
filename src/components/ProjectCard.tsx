@@ -8,6 +8,7 @@ import { motion } from 'motion/react'
 interface Project {
     id: number,
     title: string,
+    date: string,
     summary: string,
     img: string,
     alt: string,
@@ -24,9 +25,10 @@ export default function ProjectCard({project}: {project: Project}) {
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{duration: 0.7}}
-    className='bg-light-purple bg-opacity-10 flex flex-col items-center text-light-purple rounded shadow max-w-4xl p-4 mx-2 md:px-36 md:py-8 my-6 md:my-10'
+    className='bg-light-purple bg-opacity-10 flex flex-col items-center text-light-purple rounded shadow max-w-4xl p-4 mx-2 md:px-24 md:py-8 my-6 md:my-10'
     >
-      <h3 className='text-2xl md:text-3xl font-bold mb-8'>{project.title}</h3>
+      <h3 className='text-2xl md:text-3xl font-bold'>{project.title}</h3>
+      <p className='text-md mb-8 mt-2'>{project.date}</p>
       <p className='text-md md:text-lg text-left'>{project.summary}</p>      
       <Image 
         src={project.img}
@@ -36,7 +38,7 @@ export default function ProjectCard({project}: {project: Project}) {
         height={0}
         style={{borderRadius: '5px', border: '1px solid #37183b', width: '100%', margin: '16px 0', height: 'auto'}}
       />      
-      <ul className='flex flex-row font-bold flex-wrap text-md md:text-lg list-[circle] gap-x-8 justify-center mb-8'>
+      <ul className='flex flex-row font-bold flex-wrap text-md md:text-lg list-[circle] gap-x-6 justify-center mb-8 list-inside'>
         {
           project.tags.map((tag: string, index: number) => {return <li key={index}>{tag}</li>})
         }
@@ -51,7 +53,7 @@ export default function ProjectCard({project}: {project: Project}) {
         />
         <Button
           text={'Visit Website'}
-          style={'primary'}
+          style={'secondary'}
           type={'link'}
           destination={project.link2}
           newWindow={true}
