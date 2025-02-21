@@ -22,15 +22,18 @@ const gisProject = {
   links: [
     {
       title: "View Site",
-      link: 'https://staging.gridironsurvivor.com/'
+      link: 'https://staging.gridironsurvivor.com/',
+      type: 'primary'
     },
     {
       title: "View Code",
-      link: 'https://github.com/LetsGetTechnical/gridiron-survivor'
+      link: 'https://github.com/LetsGetTechnical/gridiron-survivor',
+      type: 'secondary'
     },
     {
       title: "Pull Requests",
-      link: "https://github.com/LetsGetTechnical/gridiron-survivor/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed"
+      link: "https://github.com/LetsGetTechnical/gridiron-survivor/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed",
+      type: 'secondary'
     }
   ]
 }
