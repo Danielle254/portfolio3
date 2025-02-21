@@ -50,7 +50,7 @@ export default function About() {
         />
         <Button
           text='Connect'
-          style='primary'
+          style='secondary'
           type='link'
           destination='/#connect-section'
           newWindow={false}
