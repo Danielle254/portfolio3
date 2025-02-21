@@ -30,9 +30,9 @@ export default function About() {
                     <div className='flex flex-col items-center'>
                       <RotatingLines
                         visible={true}
-                        width="96"
+                        width="90"
                         strokeColor="pink"
-                        strokeWidth="4"
+                        strokeWidth="2"
                         animationDuration="0.99"
                         ariaLabel="rotating-lines-loading"
                         /></div> : null}
