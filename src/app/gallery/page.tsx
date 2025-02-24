@@ -11,7 +11,9 @@ const galleryData = [
     alt: 'yellow labrador service dog with green vest that says guide dogs for the blind',
     tags: ["React.js", "JavaScript", "CSS", "Local Storage"],
     date: "Aug - Sept 2024",
-    path: '/project/sdatprototype'
+    path1: '/project/sdatprototype',
+    path2: 'https://danielle254.github.io/ServiceDogsAroundTown_v1/',
+    path3: 'https://github.com/Danielle254/ServiceDogsAroundTown_v1'
   },
   {
     title: "Personal Portfolio - Version 2",
@@ -19,7 +21,9 @@ const galleryData = [
     alt: 'Danielle Lindblom profile picture - woman with long brown hair smiles at camera',
     tags: ["React.js", "JavaScript", "Sass/SCSS", "React Router", "Accessibility"],
     date: "July - Sept 2024",
-    path: '/project/portfolio2'
+    path1: '/project/portfolio2',
+    path2: '',
+    path3: 'https://github.com/Danielle254/portfolio-site2'
   },
   {
     title: "Personal Conference Itinerary",
@@ -27,7 +31,9 @@ const galleryData = [
     alt: 'skyline of a major city reflected in a body of water',
     tags: ["React.js", "JavaScript", "CSS", "Local Storage", "Format PDF"],
     date: "July 2024",
-    path: '/project/conferenceitinerary'
+    path1: '/project/conferenceitinerary',
+    path2: 'https://danielle254.github.io/Conference-Agenda/',
+    path3: 'https://github.com/Danielle254/Conference-Agenda'
   },
   {
     title: "Dog Food Calculator",
@@ -35,7 +41,9 @@ const galleryData = [
     alt: 'small mound of kibble dog food on white background',
     tags: ["JavaScript", "Bootstrap", "API", "Form Validation"],
     date: "July 2024",
-    path: '/project/dogfoodcalculator'
+    path1: '/project/dogfoodcalculator',
+    path2: 'https://danielle254.github.io/Dog-Food-Calculator/',
+    path3: 'https://github.com/Danielle254/Dog-Food-Calculator'
   },
   {
     title: "Local Business Website Refresh",
@@ -43,7 +51,9 @@ const galleryData = [
     alt: 'Alpine Veterinary Care logo',
     tags: ["HTML", "CSS", "Accessibility"],
     date: "July 2024",
-    path: '/project/alpinevet'
+    path1: '/project/alpinevet',
+    path2: 'https://danielle254.github.io/Alpine-Vet/',
+    path3: 'https://github.com/Danielle254/Alpine-Vet'
   }
 ];
 
