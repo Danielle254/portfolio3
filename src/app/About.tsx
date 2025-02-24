@@ -2,9 +2,9 @@
 
 import React, { useState } from 'react'
 import { Caveat } from 'next/font/google'
-import Button from '@/components/Button';
 import { motion } from 'motion/react'
 import {RotatingLines} from 'react-loader-spinner'
+import CustomLink from '@/components/CustomLink';
 
 const caveat = Caveat({ subsets: ['latin'], weight: '400', variable: '--font-caveat' });
 
@@ -41,17 +41,15 @@ export default function About() {
       <p className='text-md md:text-lg mt-8'>I love working with <span className='text-accent-orange font-bold'>React,</span> <span className='text-accent-orange font-bold'>TypeScript,</span> and <span className='text-accent-orange font-bold'>Next.js.</span></p>
       <p className='text-md md:text-lg'>My background includes behavior science, project management, and instruction.</p>
       <div className='flex flex-row gap-8 justify-center mt-8'>
-        <Button
+        <CustomLink
           text='View Projects'
           style='primary'
-          type='link'
           destination='/#projects-section'
           newWindow={false}
         />
-        <Button
+        <CustomLink
           text='Connect'
           style='secondary'
-          type='link'
           destination='/#connect-section'
           newWindow={false}
         />
