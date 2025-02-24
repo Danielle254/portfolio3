@@ -1,9 +1,9 @@
 "use client"
 
 import React, { useState } from 'react'
-import Button from './Button'
 import { motion } from 'motion/react'
 import {RotatingLines} from 'react-loader-spinner'
+import CustomLink from './CustomLink'
 
 type ProjectProps = {
     title: string,
@@ -15,7 +15,7 @@ type ProjectProps = {
     skills: string[],
     learnings: string,
     future: string,
-    links: {title: string, link: string, type: string}[]
+    links: {title: string, link: string, type: "primary" | "secondary" | "dark"}[]
 }
 
 export default function ProjectDetailPage({project}: {project: ProjectProps}) {
@@ -99,10 +99,9 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
         transition={{duration: 0.7}}
         className='flex flex-row flex-wrap gap-8 justify-center mt-24'>
             {project.links.map((button, index) => 
-                <Button
+                <CustomLink
                 text={button.title}
                 style={button.type}
-                type='link'
                 destination={button.link}
                 newWindow={true}
                 key={index}
