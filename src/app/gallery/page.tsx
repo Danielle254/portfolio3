@@ -57,7 +57,6 @@ const galleryData = [
   }
 ];
 
-/* projects to feature: sdat v1, portfolio 2, conference itinerary, dog food calculator, alpine vet */
 
 export default function Gallery() {
   return (
@@ -67,23 +66,20 @@ export default function Gallery() {
     transition={{duration: 0.7}}
     className='max-w-5xl mx-auto pt-8 mb-24 px-4 lg:px-0 text-light-purple text-left'
     >
-        <h2 className='text-4xl mb-10 text-accent-orange text-center'>More Projects</h2>
-        <motion.div
-        initial={{ opacity: 0}}
-        whileInView={{ opacity: 1}}
-        transition={{duration: 0.7}}
-        className='flex flex-row flex-wrap gap-6 justify-center'
-        >
-          {galleryData.map((project, index) => 
-          <GalleryCard 
-          project={project}
-          key={index}
-          />
-          )}
-          
-        </motion.div>
-
-      
+      <h2 className='text-4xl mb-10 text-accent-orange text-center'>More Projects</h2>
+      <motion.div
+      initial={{ opacity: 0}}
+      whileInView={{ opacity: 1}}
+      transition={{duration: 0.7}}
+      className='flex flex-row flex-wrap gap-6 justify-center'
+      >
+        {galleryData.map((project, index) => 
+        <GalleryCard 
+        project={project}
+        key={index}
+        />
+        )}        
+      </motion.div>      
     </motion.div>
   )
 }
