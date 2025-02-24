@@ -1,14 +1,15 @@
 import React from 'react'
 import { motion } from 'motion/react'
 import Image from 'next/image'
-import { li } from 'motion/react-client'
+import CustomLink from '@/components/CustomLink'
 
 interface GalleryProject {
     title: string,
     img: string,
     alt: string,
     tags: string[],
-    date: string
+    date: string,
+    path: string
 }
 
 export default function GalleryCard({project}: {project: GalleryProject}) {
@@ -17,7 +18,7 @@ export default function GalleryCard({project}: {project: GalleryProject}) {
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{duration: 0.7}}
-    className='bg-light-purple bg-opacity-60 flex flex-col text-left text-main-purple rounded shadow max-w-80 p-4'
+    className='bg-light-purple bg-opacity-60 text-left text-main-purple rounded shadow max-w-80 p-4'
     >
         <Image 
             src={project.img}
@@ -33,10 +34,16 @@ export default function GalleryCard({project}: {project: GalleryProject}) {
             initial={{ opacity: 0}}
             whileInView={{ opacity: 1}}
             transition={{duration: 0.7}}
-            className='text-sm text-accent-orange flex flex-row gap-2 flex-wrap'
+            className='text-sm text-accent-orange flex flex-row gap-2 flex-wrap mb-8'
         >
             {project.tags.map((tag, index) => <li key={index} className='bg-main-purple px-1'>{tag}</li>)}
         </motion.ul>
+        <CustomLink
+        text='View Details'
+        style='dark'
+        destination={project.path}
+        newWindow={false}
+        />
     </motion.div>
   )
 }
