@@ -9,7 +9,9 @@ interface GalleryProject {
     alt: string,
     tags: string[],
     date: string,
-    path: string
+    path1: string,
+    path2: string,
+    path3: string
 }
 
 export default function GalleryCard({project}: {project: GalleryProject}) {
@@ -22,7 +24,7 @@ export default function GalleryCard({project}: {project: GalleryProject}) {
     >
         <motion.div>
             <h3 className='text-xl my-2 font-bold'>{project.title}</h3>
-            <p className='text-md mb-2'>{project.date}</p>
+            <p className='text-md mb-6'>{project.date}</p>
             <Image 
                 src={project.img}
                 alt={project.alt}
@@ -35,17 +37,34 @@ export default function GalleryCard({project}: {project: GalleryProject}) {
                 initial={{ opacity: 0}}
                 whileInView={{ opacity: 1}}
                 transition={{duration: 0.7}}
-                className='text-sm text-accent-orange flex flex-row gap-2 flex-wrap my-4'
+                className='text-sm text-accent-orange flex flex-row gap-2 flex-wrap my-6'
             >
                 {project.tags.map((tag, index) => <li key={index} className='bg-main-purple px-1'>{tag}</li>)}
             </motion.ul>
         </motion.div>  
-        <motion.div>         
+        <motion.div
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1}}
+            transition={{duration: 0.7}}
+            className='flex flex-row flex-wrap gap-2'
+        >         
             <CustomLink
-            text='View Details'
+            text='Details'
             style='dark'
-            destination={project.path}
+            destination={project.path1}
             newWindow={false}
+            />
+            <CustomLink
+            text='Website'
+            style='dark'
+            destination={project.path2}
+            newWindow={true}
+            />
+            <CustomLink
+            text='Code'
+            style='dark'
+            destination={project.path3}
+            newWindow={true}
             />
         </motion.div> 
     </motion.div>
