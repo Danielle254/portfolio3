@@ -58,12 +58,20 @@ export default function Projects() {
       >
         {projectsList}
       </motion.div>
-      <CustomLink
-        text={'More Projects'}
-        style={'secondary'}
-        destination={'/gallery'}
-        newWindow={false}
-      />
+      <motion.div className='flex flex-row flex-wrap gap-4 justify-center'>
+        <CustomLink
+          text={'More Projects'}
+          style={'primary'}
+          destination={'/gallery'}
+          newWindow={false}
+        />
+          <CustomLink
+          text={'GitHub'}
+          style={'secondary'}
+          destination={'https://github.com/Danielle254'}
+          newWindow={true}
+        />
+      </motion.div>
     </motion.section>
   )
 }
