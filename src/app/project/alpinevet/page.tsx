@@ -3,7 +3,7 @@
 import React from 'react'
 import ProjectDetailPage from '../../../components/ProjectDetailPage'
 
-const gisProject = {
+const alpineVetProject = {
   title: "Local Business Homepage Refresh",
   demo: "https://www.loom.com/embed/41d9ec8e943c43bd945eeddbea745b5a?hideEmbedTopBar=true",
   tech: ["HTML", "CSS", "Accessibility"],
@@ -46,7 +46,7 @@ export default function AlpineVet() {
   return (
     <>
     <ProjectDetailPage 
-    project={gisProject}
+    project={alpineVetProject}
     />
     </>
   )
