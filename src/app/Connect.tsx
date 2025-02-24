@@ -6,9 +6,9 @@ import githubIcon from '../../public/socialIcons/githubLight.png'
 import linkedinIcon from '../../public/socialIcons/linkedinLight.png'
 import montana from '../../public/montana.jpg'
 import Image from 'next/image'
-import Button from '@/components/Button'
 import Footer from './Footer'
 import { motion } from 'motion/react'
+import CustomLink from '@/components/CustomLink'
 
 export default function Connect() {
   return (
@@ -53,10 +53,9 @@ export default function Connect() {
           height={300}
         />          
         <p className='text-lg mt-2 mb-6'>Currently residing in Missoula, Montana and open to remote work.</p>
-        <Button
+        <CustomLink
           text={'View Resume'}
           style={'primary'}
-          type={'link'}
           destination={'/resume.pdf'}
           newWindow={true}
         />

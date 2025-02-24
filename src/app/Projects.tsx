@@ -2,8 +2,8 @@
 
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
-import Button from '@/components/Button';
 import { motion } from 'motion/react'
+import CustomLink from '@/components/CustomLink';
 
 
 const projectData = [
@@ -58,10 +58,9 @@ export default function Projects() {
       >
         {projectsList}
       </motion.div>
-      <Button
+      <CustomLink
         text={'More Projects'}
         style={'secondary'}
-        type={'link'}
         destination={'/gallery'}
         newWindow={false}
       />
