@@ -20,7 +20,7 @@ export default function GalleryCard({project}: {project: GalleryProject}) {
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{duration: 0.7}}
-    className='bg-light-purple bg-opacity-60 text-left text-main-purple rounded shadow max-w-80 p-4 flex flex-col justify-between'
+    className='bg-light-purple bg-opacity-80 text-left text-main-purple rounded shadow max-w-80 p-4 flex flex-col justify-between'
     >
         <motion.div>
             <h3 className='text-xl my-2 font-bold'>{project.title}</h3>
@@ -37,9 +37,9 @@ export default function GalleryCard({project}: {project: GalleryProject}) {
                 initial={{ opacity: 0}}
                 whileInView={{ opacity: 1}}
                 transition={{duration: 0.7}}
-                className='text-sm text-accent-orange flex flex-row gap-2 flex-wrap my-6'
+                className='text-sm text-main-purple flex flex-row gap-x-4 gap-y-2 flex-wrap my-6'
             >
-                {project.tags.map((tag, index) => <li key={index} className='bg-main-purple px-1'>{tag}</li>)}
+                {project.tags.map((tag, index) => <li key={index}>{tag}</li>)}
             </motion.ul>
         </motion.div>  
         <motion.div
@@ -50,19 +50,19 @@ export default function GalleryCard({project}: {project: GalleryProject}) {
         >         
             <CustomLink
             text='Details'
-            style='dark'
+            style='primaryDark'
             destination={project.path1}
             newWindow={false}
             />
             <CustomLink
             text='Website'
-            style='dark'
+            style='secondaryDark'
             destination={project.path2}
             newWindow={true}
             />
             <CustomLink
             text='Code'
-            style='dark'
+            style='secondaryDark'
             destination={project.path3}
             newWindow={true}
             />
