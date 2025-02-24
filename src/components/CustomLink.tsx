@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 interface CustomLinkProps {
     text: string;
-    style: "primary" | "secondary" | "dark";
+    style: string;
     destination: string;
     newWindow: boolean;
 }
