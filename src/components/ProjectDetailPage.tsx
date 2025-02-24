@@ -15,7 +15,7 @@ type ProjectProps = {
     skills: string[],
     learnings: string,
     future: string,
-    links: {title: string, link: string, style: string}[]
+    links: {title: string, link: string, style: "primary" | "secondary" | "primaryDark" | "secondaryDark"}[]
 }
 
 export default function ProjectDetailPage({project}: {project: ProjectProps}) {
