@@ -4,39 +4,40 @@ import React from 'react'
 import ProjectDetailPage from '../../../components/ProjectDetailPage'
 
 const gisProject = {
-  title: "Gridiron Survivor",
-  demo: "https://www.loom.com/embed/e32f21774c3a4a4d8a9a402abb4b5a81?hideEmbedTopBar=true",
-  tech: ["Next.js", "styleScript", "React.js", "Jest", "React Testing Library", "shadcn/ui"],
-  description: `Gridiron Survivor is a football survivor pool web application built as part of a software development apprenticeship program. I worked on this project from October 2024 - February 2025, focusing on addressing user experience issues including accessibility. We are currently in the process of standing up a new team project.
+  title: "Calculate How Long Your Dog Food Will Last",
+  demo: "https://www.loom.com/embed/786d7f5fbc4f4079957bc76274bf2185?hideEmbedTopBar=true",
+  tech: ["JavaScript", "Bootstrap"],
+  description: `This app calculates how long a given bag of dog food will last, factoring in a multiple dog household, and provides the user with pricing information and a link to purchase the food online. There is also the ability to compare 2 different foods!
 
-  This site allows users to stand up a league with several members, then those members can make multiple picks from a list of NFL games happening that week. The game's outcome determines whose picks "survive" and live to do another round the next week. Whoever is still standing at the end of the season typically wins a large prize!
+  The "days per bag" metric, which tells the user how long the bag of food will last, is helpful not only to know how often to reorder, like setting up a subscription order, but also to know if the bag you have will last the duration of your trip when setting out to travel.
   
-  October 2024 - Present`,
-  heading: "Key Contributions",
-  features: ["Removed distracting, obsolete information from the site", "Gave users the ability to clear popup notifications", "Resolved a screen flickering issue by creating a new login authentication workflow and utilizing a loading spinner", "Identified and fixed a key accessibility issue with the menu controls"],
-  skills: ["Getting up to speed quickly on an unfamiliar, complex code base", "Quickly learning new technologies (Next.js, styleScript, Jest, React Testing Library)", "Performing peer code reviews", "Writing unit tests for improved code quality" ],
-  learnings: `This project has been a great experience in implementing typical corporate processes like sprint planning, estimating points for tickets, and performing code reviews. I really enjoyed the challenge of diving into an existing codebase, finding the files relevant to my tickets, solving problems, and working collaboratively with a team.
+  July 2024`,
+  heading: "Key Features",
+  features: ["Simple, easy to use input form", "Results message displays after form submits", "Ability to reset the form at any time", "Ability to compare 2 different foods and their prices", "Easy ordering via Buy Now button", "Accounts for more than 1 dog in your household"],
+  skills: ["HTML forms and form validation", "Bootstrap for styling", "Vanilla JavaScript with event listeners, reading and writing HTML elements", "Data stored in JSON file and pulled with API call", "Multiple complex JavaScript functions", "Organizing JS functions with modules" ],
+  learnings: `I enjoyed writing multiple functions to perform these calculations and refactoring them into modules for better readability and organization.
   
-  This was my first introduction to Next.js and styleScript, and I really like these tools and the structure they provide. It was a good resourcefulness exercise in learning these quickly so that I could be effective as soon as possible.
+  I also got good experience with how to break down a problem when encountering errors in the code with such complex calculations.
   
-  Finally, I was glad for an opportunity to flex my web accessibility skills and make proactive contributions to help make this project more accessible.`,
-  future: `The team is shifting to a different project going forward - a Secret Santa web application that will be launched as a paid SaaS product late 2025. This project utilizes a similar tech stack as well as an AI API for customized gift recommendations.`,
+  I'm glad I went for the personal challenge of learning how to use async functions properly to retrieve JSON data via API instead of simply hosting the dataset in my main JS file.
+  
+  Having a completely original project was really fun, and I got good practice using Git branching and PRs to manage the build of my many features.`,
+  future: `It would be an interesting challenge to utilize the Amazon API or similar to allow the user to search for their specific brand and bag size of dog food.
+  
+  They physics tutor in me wants to do real world calculations (ounces per cup) for the various brands in my existing library and update that metric in the library per brand.
+  
+  Finally, I could add in recommended feeding guidelines for the specific brands in my existing (manual) library.`,
   links: [
     {
-      title: "View Website",
-      link: 'https://staging.gridironsurvivor.com/',
+      title: "Try It Out",
+      link: 'https://danielle254.github.io/Dog-Food-Calculator/',
       style: 'primary'
     },
     {
       title: "View Code",
-      link: 'https://github.com/LetsGetTechnical/gridiron-survivor',
+      link: 'https://github.com/Danielle254/Dog-Food-Calculator',
       style: 'secondary'
     },
-    {
-      title: "Pull Requests",
-      link: "https://github.com/LetsGetTechnical/gridiron-survivor/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed",
-      style: 'secondary'
-    }
   ]
 }
 
