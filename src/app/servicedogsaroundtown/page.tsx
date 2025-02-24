@@ -27,7 +27,7 @@ const sdatProject = {
   I've made efforts towards soliciting real end users for testing, and I'm eager to hear their feedback and experiences using the site.`,
   links: [
     {
-      title: "View Site",
+      title: "View Website",
       link: 'https://servicedogsaroundtown.vercel.app/',
       type: 'primary'
     },
