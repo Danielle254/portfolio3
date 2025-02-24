@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import Button from './Button'
+import CustomLink from './CustomLink'
 import { motion } from 'motion/react'
 
 interface Project {
@@ -44,17 +44,15 @@ export default function ProjectCard({project}: {project: Project}) {
         }
       </ul>
       <div className="flex flex-row gap-4 flex-wrap justify-center">
-        <Button
+        <CustomLink
           text={'Demo & Details'}
           style={'primary'}
-          type={'link'}
           destination={project.link1}
           newWindow={false}
         />
-        <Button
+        <CustomLink
           text={'Visit Website'}
           style={'secondary'}
-          type={'link'}
           destination={project.link2}
           newWindow={true}
         />
