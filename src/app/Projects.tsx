@@ -3,8 +3,7 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 import { motion } from 'motion/react'
-import CustomLink from '@/components/CustomLink';
-
+import Link from 'next/link'
 
 const projectData = [
   {
@@ -58,20 +57,10 @@ export default function Projects() {
       >
         {projectsList}
       </motion.div>
-      <motion.div className='flex flex-row flex-wrap gap-4 justify-center'>
-        <CustomLink
-          text={'More Projects'}
-          style={'primary'}
-          destination={'/gallery'}
-          newWindow={false}
-        />
-          <CustomLink
-          text={'GitHub'}
-          style={'secondary'}
-          destination={'https://github.com/Danielle254'}
-          newWindow={true}
-        />
-      </motion.div>
+       <Link
+          href={'/gallery'}
+          className='text-accent-orange text-lg hover:underline cursor-pointer px-2 py-1 rounded-sm'
+        >More Projects</Link>
     </motion.section>
   )
 }
