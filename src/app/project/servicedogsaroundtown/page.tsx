@@ -41,7 +41,9 @@ const sdatProject = {
       link: "https://github.com/users/Danielle254/projects/1",
       style: 'secondary'
     }
-  ]
+  ],
+  screen1: '/projectImages/sdatscreen1.jpg',
+  screen2: '/projectImages/sdatscreen2.jpg'
 }
 
 
