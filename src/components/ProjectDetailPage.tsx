@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import { motion } from 'motion/react'
 import {RotatingLines} from 'react-loader-spinner'
 import CustomLink from './CustomLink'
+import Image from 'next/image'
 
 type ProjectProps = {
     title: string,
@@ -15,7 +16,9 @@ type ProjectProps = {
     skills: string[],
     learnings: string,
     future: string,
-    links: {title: string, link: string, style: string}[]
+    links: {title: string, link: string, style: string}[],
+    screen1: string,
+    screen2: string
 }
 
 export default function ProjectDetailPage({project}: {project: ProjectProps}) {
@@ -33,7 +36,11 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
     >
         <h2 className='text-4xl mb-10 text-accent-orange text-center'>{project.title}</h2>
         <h3 className='text-2xl font-bold mb-4'>Demo:</h3>
-        <div className='relative mx-auto h-0 pb-[56%] lg:pb-[56%]'>
+        <motion.div 
+        initial={{ opacity: 0}}
+        whileInView={{ opacity: 1}}
+        transition={{duration: 0.7}}
+        className='relative mx-auto h-0 pb-[56%] lg:pb-[56%]'>
             {videoIsLoading ? 
             <div className='flex flex-col items-center'>
               <RotatingLines
@@ -45,7 +52,7 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
                 ariaLabel="rotating-lines-loading"
                 /></div> : null}
             <iframe className='absolute w-full h-full left-0 top-0 border border-main-pink rounded' src={project.demo}  allowFullScreen title='screenshare demo of project website features' onLoad={hideSpinner}></iframe>
-        </div>
+        </motion.div>
         <motion.section
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1}}
@@ -56,7 +63,15 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
             {project.tech.map((each, index) => <li key={index}>{each}</li>)}
             </ul>
         </motion.section>
-        <p className='text-lg/8 whitespace-pre-line'>{project.description}</p>
+        <p className='text-lg/8 whitespace-pre-line mb-10'>{project.description}</p>
+        <Image 
+            src={project.screen1}
+            alt=''
+            sizes='100vw'
+            width={0}
+            height={0}
+            style={{borderRadius: '5px', border: '1px solid #a73974', width: '100%', margin: '16px 0', height: 'auto'}}
+        /> 
         <motion.section
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1}}
@@ -73,10 +88,18 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
         transition={{duration: 0.7}}
         >
             <h3 className='text-2xl font-bold mt-10 mb-4'>Skills Showcased: </h3>
-            <ul className='list-disc ml-6 text-lg/8 marker:text-accent-orange'>
+            <ul className='list-disc ml-6 text-lg/8 marker:text-accent-orange mb-10'>
                 {project.skills.map((each, index) => <li key={index}>{each}</li>)}
             </ul>
         </motion.section>
+        <Image 
+            src={project.screen2}
+            alt=''
+            sizes='100vw'
+            width={0}
+            height={0}
+            style={{borderRadius: '5px', border: '1px solid #a73974', width: '100%', margin: '16px 0', height: 'auto'}}
+        />
         <motion.section
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1}}
