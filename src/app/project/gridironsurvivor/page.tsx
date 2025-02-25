@@ -37,7 +37,9 @@ const gisProject = {
       link: "https://github.com/LetsGetTechnical/gridiron-survivor/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed",
       style: 'secondary'
     }
-  ]
+  ],
+  screen1: '/projectImages/gridironscreen1.jpg',
+  screen2: '/projectImages/gridironscreen2.jpg'
 }
 
 
