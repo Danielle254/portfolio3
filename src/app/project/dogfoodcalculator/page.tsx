@@ -3,7 +3,7 @@
 import React from 'react'
 import ProjectDetailPage from '../../../components/ProjectDetailPage'
 
-const gisProject = {
+const calculatorProject = {
   title: "Calculate How Long Your Dog Food Will Last",
   demo: "https://www.loom.com/embed/786d7f5fbc4f4079957bc76274bf2185?hideEmbedTopBar=true",
   tech: ["JavaScript", "Bootstrap"],
@@ -48,7 +48,7 @@ export default function DogFoodCalculator() {
   return (
     <>
     <ProjectDetailPage 
-    project={gisProject}
+    project={calculatorProject}
     />
     </>
   )
