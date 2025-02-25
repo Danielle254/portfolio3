@@ -3,49 +3,47 @@
 import React from 'react'
 import ProjectDetailPage from '../../../components/ProjectDetailPage'
 
-const gisProject = {
-  title: "Gridiron Survivor",
-  demo: "https://www.loom.com/embed/e32f21774c3a4a4d8a9a402abb4b5a81?hideEmbedTopBar=true",
-  tech: ["Next.js", "styleScript", "React.js", "Jest", "React Testing Library", "shadcn/ui"],
-  description: `Gridiron Survivor is a football survivor pool web application built as part of a software development apprenticeship program. I worked on this project from October 2024 - February 2025, focusing on addressing user experience issues including accessibility. We are currently in the process of standing up a new team project.
+const sdatv1Project = {
+  title: "Service Dogs Around Town - Prototype",
+  demo: "https://www.loom.com/embed/146fece58802487cb4003b5b77854c2c?hideEmbedTopBar=true",
+  tech: ["React.js", "JavaScript", "CSS", "Local Storage"],
+  description: `This is what I'd call my capstone project. It is broken down into multiple versions and deployments, and will ultimately be a multi-user, public application utilizing a database. I want to work outside of my comfort zone and create something that makes me grow my skills.
 
-  This site allows users to stand up a league with several members, then those members can make multiple picks from a list of NFL games happening that week. The game's outcome determines whose picks "survive" and live to do another round the next week. Whoever is still standing at the end of the season typically wins a large prize!
+  The idea for this project came from me, as a service dog handler, not being able to remember which businesses (particularly restuarants) I've visited were a good experience. Version 1 of this application allows users to capture information about the business and add a personal note regarding the comfort and safety of their service dog when visiting.
+
+  Version 2 incorporates the Google Maps API and Firebase database.
   
-  October 2024 - Present`,
-  heading: "Key Contributions",
-  features: ["Removed distracting, obsolete information from the site", "Gave users the ability to clear popup notifications", "Resolved a screen flickering issue by creating a new login authentication workflow and utilizing a loading spinner", "Identified and fixed a key accessibility issue with the menu controls"],
-  skills: ["Getting up to speed quickly on an unfamiliar, complex code base", "Quickly learning new technologies (Next.js, styleScript, Jest, React Testing Library)", "Performing peer code reviews", "Writing unit tests for improved code quality" ],
-  learnings: `This project has been a great experience in implementing typical corporate processes like sprint planning, estimating points for tickets, and performing code reviews. I really enjoyed the challenge of diving into an existing codebase, finding the files relevant to my tickets, solving problems, and working collaboratively with a team.
-  
-  This was my first introduction to Next.js and styleScript, and I really like these tools and the structure they provide. It was a good resourcefulness exercise in learning these quickly so that I could be effective as soon as possible.
-  
-  Finally, I was glad for an opportunity to flex my web accessibility skills and make proactive contributions to help make this project more accessible.`,
-  future: `The team is shifting to a different project going forward - a Secret Santa web application that will be launched as a paid SaaS product late 2025. This project utilizes a similar tech stack as well as an AI API for customized gift recommendations.`,
+  August - September 2024`,
+  heading: "Key Features",
+  features: ["Create a list of businesses you've visited", "Browser saves the list in local storage", "User can edit or delete entries", "Note which businesses were your favorites", "Sort entries by Date Visited or Business Name. Filter entries by Favorites."],
+  skills: ["React components", "Utilizing local storage", "CRUD app - Create, Read, Update, Delete", "Keyboard Navigable", "Form Validation"],
+  learnings: `The purpose of this project was to test out the features and functionality that I had in mind for Service Dogs Around Town. I started pushing myself in my web design and as a result updated the look and feel of the intake form quite a bit to be more professional. I really enjoyed the functional engineering of creating the sorting and filtering features. It was a fun, whimsical project and a big step towards my capstone project's final version.`,
+  future: `Version 2 will incorporate the Google Maps API and utilize PocketBase for a database. There are further iterations/deployments scheduled after that as well. These first 2 versions will be single user, "private" applications. After that, it will open up to be a multi-user, "public" application that displays data from all users (except personal notes, which will be kept private to each user).`,
   links: [
     {
       title: "View Website",
-      link: 'https://staging.gridironsurvivor.com/',
+      link: 'https://danielle254.github.io/ServiceDogsAroundTown_v1/',
       style: 'primary'
     },
     {
       title: "View Code",
-      link: 'https://github.com/LetsGetTechnical/gridiron-survivor',
+      link: 'https://github.com/Danielle254/ServiceDogsAroundTown_v1',
       style: 'secondary'
     },
     {
-      title: "Pull Requests",
-      link: "https://github.com/LetsGetTechnical/gridiron-survivor/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed",
+      title: "Version 2",
+      link: "https://servicedogsaroundtown.vercel.app/",
       style: 'secondary'
     }
   ]
 }
 
 
-export default function SDATprotostyle() {
+export default function SDATprototype() {
   return (
     <>
     <ProjectDetailPage 
-    project={gisProject}
+    project={sdatv1Project}
     />
     </>
   )
