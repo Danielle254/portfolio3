@@ -5,7 +5,7 @@ import ProjectDetailPage from '../../../components/ProjectDetailPage'
 
 const portfolio2Project = {
   title: "Personal Portfolio - Version 2",
-  demo: "https://www.loom.com/embed/e32f21774c3a4a4d8a9a402abb4b5a81?hideEmbedTopBar=true",
+  demo: "https://www.loom.com/embed/a5fbf9d4992a42b0be9294df4d1a2a8f?sid=3d258a05-2e3f-431c-a0b4-e8e8cbe7a326?hideEmbedTopBar=true",
   tech: ["React.js", "JavaScript", "Sass/SCSS", "React Router", "Accessibility"],
   description: `Gridiron Survivor is a football survivor pool web application built as part of a software development apprenticeship program. I worked on this project from October 2024 - February 2025, focusing on addressing user experience issues including accessibility. We are currently in the process of standing up a new team project.
 
