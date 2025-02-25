@@ -39,8 +39,8 @@ const gisProject = {
       style: 'secondary'
     },
   ],
-  screen1: '',
-  screen2: ''
+  screen1: '/projectImages/calculatorscreen1.jpg',
+  screen2: '/projectImages/calculatorscreen2.jpg'
 }
 
 
