@@ -39,8 +39,8 @@ const alpineVetProject = {
       style: "secondary"
     },
   ],
-  screen1: '',
-  screen2: ''
+  screen1: '/projectImages/alpine1screen.jpg',
+  screen2: '/projectImages/alpine1screen.jpg'
 }
 
 
