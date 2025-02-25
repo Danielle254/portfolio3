@@ -38,7 +38,9 @@ const gisProject = {
       link: 'https://github.com/Danielle254/Dog-Food-Calculator',
       style: 'secondary'
     },
-  ]
+  ],
+  screen1: '',
+  screen2: ''
 }
 
 

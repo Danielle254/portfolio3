@@ -35,7 +35,9 @@ const sdatv1Project = {
       link: "https://servicedogsaroundtown.vercel.app/",
       style: 'secondary'
     }
-  ]
+  ],
+  screen1: '',
+  screen2: ''
 }
 
 

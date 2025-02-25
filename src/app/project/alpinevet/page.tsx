@@ -38,7 +38,9 @@ const alpineVetProject = {
       link: 'https://github.com/Danielle254/Alpine-Vet',
       style: "secondary"
     },
-  ]
+  ],
+  screen1: '',
+  screen2: ''
 }
 
 

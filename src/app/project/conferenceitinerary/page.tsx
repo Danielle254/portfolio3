@@ -40,7 +40,9 @@ const conferenceProject = {
       link: 'https://github.com/Danielle254/Conference-Agenda',
       style: "secondary"
     }
-  ]
+  ],
+  screen1: '',
+  screen2: ''
 }
 
 
