@@ -7,20 +7,22 @@ const portfolio2Project = {
   title: "Personal Portfolio - Version 2",
   demo: "https://www.loom.com/embed/a5fbf9d4992a42b0be9294df4d1a2a8f?sid=3d258a05-2e3f-431c-a0b4-e8e8cbe7a326?hideEmbedTopBar=true",
   tech: ["React.js", "JavaScript", "Sass/SCSS", "React Router", "Accessibility"],
-  description: `Gridiron Survivor is a football survivor pool web application built as part of a software development apprenticeship program. I worked on this project from October 2024 - February 2025, focusing on addressing user experience issues including accessibility. We are currently in the process of standing up a new team project.
+  description: `This was my first real developer portfolio, and I'm proud of taking the time to create a design (with Canva) before building. I was able to get feedback on the design before putting in a lot of work.
 
-  This site allows users to stand up a league with several members, then those members can make multiple picks from a list of NFL games happening that week. The game's outcome determines whose picks "survive" and live to do another round the next week. Whoever is still standing at the end of the season typically wins a large prize!
+  I enjoyed the opportunity to use Sass/SCSS, and it made standardizing things like links much easier than vanilla CSS. This was also my first attempt at using React Router, and it went quite well. I had some difficulties with deployment on GitHub Pages because of the routing but was able to get those resolved. 
+
+  Overall, there was a LOT of learning on this project, and it moved me forward as a developer. It was also nice to have something that I felt represented me well and reflected who I was as a developer.
   
   July - September 2024`,
   heading: "Key Features",
   features: ["Light and Dark mode with toggle", "Ability for users to turn animations on/off", "Multi page React application"],
-  skills: ["Getting up to speed quickly on an unfamiliar, complex code base", "Quickly learning new technologies (Next.js, styleScript, Jest, React Testing Library)", "Performing peer code reviews", "Writing unit tests for improved code quality" ],
-  learnings: `This project has been a great experience in implementing typical corporate processes like sprint planning, estimating points for tickets, and performing code reviews. I really enjoyed the challenge of diving into an existing codebase, finding the files relevant to my tickets, solving problems, and working collaboratively with a team.
+  skills: ["Web Design with Canva", "Accessibility - keyboard navigable and option to turn animations on/off", "React Router to highlight project details on separate pages", "Using Sass/SCSS"],
+  learnings: `While it seems simple and clean, this project actually really challenged me in several areas. Setting up the routing with React Router, deploying to GitHub Pages, and getting my SCSS libraries set up were all new challenges that I had to overcome. I used the resources available to me, asked a lot of questions, and worked through them all.
   
-  This was my first introduction to Next.js and styleScript, and I really like these tools and the structure they provide. It was a good resourcefulness exercise in learning these quickly so that I could be effective as soon as possible.
+  I tracked my progress with an Asana project board. This allowed me to keep track of what still had to be done, issues that had come up, and wish list items.
   
-  Finally, I was glad for an opportunity to flex my web accessibility skills and make proactive contributions to help make this project more accessible.`,
-  future: `The team is shifting to a different project going forward - a Secret Santa web application that will be launched as a paid SaaS product late 2025. This project utilizes a similar tech stack as well as an AI API for customized gift recommendations.`,
+  Overall, this project forced me to be more organized and follow a plan. Something that served me well when I began my complex capstone project (Service Dogs Around Town).`,
+  future: `There were still a few wish list items unresolved on my list once I published this. Things like refactoring the SCSS code to be more organized, adding a "Copied!" popup message when the email address is added to the user's clipboard, and handling the social media icons in a more effective way than image files.`,
   links: [
     {
       title: "View Website",
