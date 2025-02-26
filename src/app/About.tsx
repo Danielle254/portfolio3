@@ -39,7 +39,7 @@ export default function About() {
                         /></div> : null}
         <iframe className='absolute w-full h-full left-0 top-0 border border-main-pink rounded' src="https://www.loom.com/embed/7780d925a77e48848bc75caff6d317c3?sid=fc473fda-2fc0-4b7e-b0ce-ba8106adae53?hideEmbedTopBar=true&hide_title=true&hide_owner=true" allowFullScreen title='Danielle Lindblom video introduction' onLoad={hideLoadingSpinner}></iframe>
       </div>
-      <button onClick={() => setShowTranscript(!showTranscript)} className='text-sm hover:underline ml-0'>Video Transcript</button>
+      <button onClick={() => setShowTranscript(!showTranscript)} className='text-sm hover:underline'>Video Transcript</button>
       {showTranscript &&
       <p className='text-sm text-left'>0:01 Hey there, I'm Danielle Lindblom, a front-end developer from Missoula Montana. I specialize in building accessible websites using React and JavaScript, like my side project that helps service dog handlers navigate their local communities.
       0:16 I'm currently diving deeper into TypeScript, NextJS, and Unit Testing in my apprenticeship program, where I'm working with my mentor to build and maintain a football survivor pool SaaS product.
