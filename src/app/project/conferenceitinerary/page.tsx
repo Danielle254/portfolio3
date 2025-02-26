@@ -42,7 +42,7 @@ const conferenceProject = {
     }
   ],
   screen1: '/projectImages/conferencescreen1.jpg',
-  screen2: '/projectImages/conferencescreen1.jpg'
+  screen2: '/projectImages/conferencescreen2.jpg'
 }
 
 
