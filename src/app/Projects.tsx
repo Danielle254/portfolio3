@@ -45,7 +45,7 @@ export default function Projects() {
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{duration: 0.7}}
-    className='max-w-5xl mx-auto pt-8 mb-24 px-4 md:px-0 text-center'
+    className='max-w-5xl mx-auto pt-8 mb-24 px-4 xl:px-0 text-center'
     id='projects-section'
     >
       <h2 className='text-4xl mb-10 text-accent-orange'>Portfolio</h2>
