@@ -26,12 +26,12 @@ export default function Connect() {
         transition={{duration: 0.7}}
         className='text-light-purple flex flex-col gap-1 md:flex-row md:gap-10'
       >
-        <li className='text-lg hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded px-2 py-1 transition duration-300 ease-in-out'><a href="https://www.linkedin.com/in/danielle-lindblom/" className='flex flex-row gap-4 md:gap-2 items-center'><img src={linkedinIcon.src} className='w-6 h-6' alt=''/>LinkedIn 
+        <li className='text-lg hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded px-2 py-1 transition duration-300 ease-in-out'><a href="https://www.linkedin.com/in/danielle-lindblom/" className='flex flex-row gap-4 md:gap-2 items-center' target='_blank'><img src={linkedinIcon.src} className='w-6 h-6' alt=''/>LinkedIn 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4"  aria-hidden='true'>
             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg></a>
         </li>
-        <li className='text-lg hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded px-2 py-1 transition duration-300 ease-in-out'><a href="https://github.com/Danielle254" className='flex flex-row gap-4 md:gap-2 items-center'><img src={githubIcon.src} className='w-6 h-6' alt=''/>GitHub 
+        <li className='text-lg hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded px-2 py-1 transition duration-300 ease-in-out'><a href="https://github.com/Danielle254" className='flex flex-row gap-4 md:gap-2 items-center' target='_blank'><img src={githubIcon.src} className='w-6 h-6' alt=''/>GitHub 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4"  aria-hidden='true'>
             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg></a>
