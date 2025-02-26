@@ -5,7 +5,7 @@ import ProjectDetailPage from '../../../components/ProjectDetailPage'
 
 const conferenceProject = {
   title: "Create Your Own Personal Itinerary from a Conference Agenda",
-  demo: "https://www.loom.com/embed/e32f21774c3a4a4d8a9a402abb4b5a81?hideEmbedTopBar=true",
+  demo: "https://www.loom.com/embed/8f2fb0c5d93d41faac32e633ed463a56?hideEmbedTopBar=true",
   tech: ["React", "JavaScript", "CSS", "Format PDF", "Local Storage"],
   description: `This is a project of my own idea and design. The site displays the agenda for a conference in chronological order (data stored in separate file), then allows the user to add activities from the agenda to their own personal itinerary.
 
