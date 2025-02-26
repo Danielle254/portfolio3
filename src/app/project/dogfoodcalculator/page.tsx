@@ -14,7 +14,7 @@ const calculatorProject = {
   July 2024`,
   heading: "Key Features",
   features: ["Simple, easy to use input form", "Results message displays after form submits", "Ability to reset the form at any time", "Ability to compare 2 different foods and their prices", "Easy ordering via Buy Now button", "Accounts for more than 1 dog in your household"],
-  skills: ["HTML forms and form validation", "Bootstrap for styling", "Vanilla JavaScript with event listeners, reading and writing HTML elements", "Data stored in JSON file and pulled with API call", "Multiple complex JavaScript functions", "Organizing JS functions with modules" ],
+  skills: ["HTML forms and form validation", "Bootstrap for styling", "Vanilla JavaScript with event listeners, reading and writing HTML elements", "Data stored in JSON file and accessed with API call", "Multiple complex JavaScript functions", "Organizing JS functions with modules" ],
   learnings: `I enjoyed writing multiple functions to perform these calculations and refactoring them into modules for better readability and organization.
   
   I also got good experience with how to break down a problem when encountering errors in the code with such complex calculations.
@@ -24,7 +24,7 @@ const calculatorProject = {
   Having a completely original project was really fun, and I got good practice using Git branching and PRs to manage the build of my many features.`,
   future: `It would be an interesting challenge to utilize the Amazon API or similar to allow the user to search for their specific brand and bag size of dog food.
   
-  They physics tutor in me wants to do real world calculations (ounces per cup) for the various brands in my existing library and update that metric in the library per brand.
+  The physics tutor in me wants to do real world calculations (ounces per cup) for the various brands in my existing library and update that metric in the library per brand.
   
   Finally, I could add in recommended feeding guidelines for the specific brands in my existing (manual) library.`,
   links: [
