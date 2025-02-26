@@ -21,7 +21,7 @@ export default function MobileDrawer({isOpen, toggleDrawerOpen}: DrawerProps) {
         </button>
         <div className='flex flex-col gap-4 items-center'>
             <h1 className='text-lg font-bold'>Danielle Lindblom</h1>
-            <Link href={'/'}>
+            <Link href={'/'} onClick={toggleDrawerOpen}>
               <Image
               src={profile}
               alt='Danielle Lindblom profile picture'
@@ -29,7 +29,6 @@ export default function MobileDrawer({isOpen, toggleDrawerOpen}: DrawerProps) {
               height={100}
               />
             </Link>
-
         </div>
         <Nav 
         toggleDrawerOpen={toggleDrawerOpen}
