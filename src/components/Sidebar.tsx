@@ -28,8 +28,7 @@ export default function Sidebar() {
               style={{borderRadius: '50%', border: '1px solid #37183b'}}
               height={100}
             />
-          </Link>
-          
+          </Link>          
         </div>
         <Nav 
           toggleDrawerOpen={toggleDrawerOpen}
