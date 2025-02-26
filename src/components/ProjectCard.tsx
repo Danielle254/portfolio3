@@ -25,7 +25,7 @@ export default function ProjectCard({project}: {project: Project}) {
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{duration: 0.7}}
-    className='bg-light-purple bg-opacity-10 flex flex-col items-center text-light-purple rounded shadow max-w-4xl p-4 mx-2 md:px-24 md:py-8'
+    className='bg-light-purple bg-opacity-10 flex flex-col text-light-purple rounded shadow max-w-4xl p-4 md:px-24 md:py-8 text-left md:text-center'
     >
       <h3 className='text-2xl md:text-3xl font-bold'>{project.title}</h3>
       <p className='text-md mb-8 mt-2'>{project.date}</p>
@@ -38,9 +38,9 @@ export default function ProjectCard({project}: {project: Project}) {
         height={0}
         style={{borderRadius: '5px', border: '1px solid #37183b', width: '100%', margin: '16px 0', height: 'auto'}}
       />      
-      <ul className='flex flex-row font-bold flex-wrap text-md md:text-lg list-[circle] gap-x-6 justify-center mb-8 list-inside'>
+      <ul className='flex flex-row flex-wrap text-md md:text-lg gap-x-4 gap-y-2 justify-start md:justify-center mb-10 list-inside '>
         {
-          project.tags.map((tag: string, index: number) => {return <li key={index}>{tag}</li>})
+          project.tags.map((tag: string, index: number) => {return <li key={index} className='bg-main-purple md:bg-none px-1'>{tag}</li>})
         }
       </ul>
       <div className="flex flex-row gap-4 flex-wrap justify-center">

@@ -21,7 +21,7 @@ export default function About() {
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{ duration: 0.7 }}
-    className='h-full md:min-h-screen max-w-xl lg:max-w-4xl mx-auto py-8 px-2 mb-32 sm:mb-40 lg:mb-0'
+    className='h-full md:min-h-screen max-w-xl lg:max-w-4xl mx-auto py-8 px-4 mb-32 sm:mb-40 lg:mb-0 text-left md:text-center'
     id='about-section'
     >
       <h2 className={`text-5xl ${caveat.variable} font-special my-4 md:mb-2`}>Hi, I'm Danielle</h2>
@@ -50,7 +50,7 @@ export default function About() {
       }
       <p className='text-md md:text-lg mt-8'>I love working with <span className='text-accent-orange font-bold'>React,</span> <span className='text-accent-orange font-bold'>TypeScript,</span> and <span className='text-accent-orange font-bold'>Next.js.</span></p>
       <p className='text-md md:text-lg'>My background includes behavior science, project management, and instruction.</p>
-      <div className='flex flex-row gap-8 justify-center mt-8'>
+      <div className='flex flex-row gap-8 justify-start md:justify-center mt-8'>
         <CustomLink
           text='View Projects'
           style='primary'
