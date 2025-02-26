@@ -11,10 +11,10 @@ const gisProject = {
 
   This site allows users to stand up a league with several members, then those members can make multiple picks from a list of NFL games happening that week. The game's outcome determines whose picks "survive" and live to do another round the next week. Whoever is still standing at the end of the season typically wins a large prize!
   
-  October 2024 - Present`,
+  October 2024 - February 2025`,
   heading: "Key Contributions",
   features: ["Removed distracting, obsolete information from the site", "Gave users the ability to clear popup notifications", "Resolved a screen flickering issue by creating a new login authentication workflow and utilizing a loading spinner", "Identified and fixed a key accessibility issue with the menu controls"],
-  skills: ["Getting up to speed quickly on an unfamiliar, complex code base", "Quickly learning new technologies (Next.js, styleScript, Jest, React Testing Library)", "Performing peer code reviews", "Writing unit tests for improved code quality" ],
+  skills: ["Getting up to speed quickly on an unfamiliar, complex code base", "Quickly learning new technologies (Next.js, TypeScript, Jest, React Testing Library)", "Performing peer code reviews", "Writing unit tests for improved code quality" ],
   learnings: `This project has been a great experience in implementing typical corporate processes like sprint planning, estimating points for tickets, and performing code reviews. I really enjoyed the challenge of diving into an existing codebase, finding the files relevant to my tickets, solving problems, and working collaboratively with a team.
   
   This was my first introduction to Next.js and TypeScript, and I really like these tools and the structure they provide. It was a good resourcefulness exercise in learning these quickly so that I could be effective as soon as possible.
