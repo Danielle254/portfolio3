@@ -7,7 +7,7 @@ const alpineVetProject = {
   title: "Local Business Homepage Refresh",
   demo: "https://www.loom.com/embed/41d9ec8e943c43bd945eeddbea745b5a?hideEmbedTopBar=true",
   tech: ["HTML", "CSS", "Accessibility"],
-  description: `I took the website of a local business that I frequent, Alpine Vet Care in Missoula, and gave their website homepage a refresh. This project showcases my ability to use CSS with no libraries or frameworks to create a responsive webpage for desktop and mobile.
+  description: `I took the website of a local business that I frequent, Alpine Vet Care in Missoula, and gave their homepage a refresh. This project showcases my ability to use CSS with no libraries or frameworks to create a responsive webpage for desktop and mobile.
 
   Their existing website was crowded, outdated, and had several accessibility issues.
 
