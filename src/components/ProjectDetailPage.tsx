@@ -34,7 +34,7 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
     transition={{duration: 0.7}}
     className='max-w-3xl mx-auto pt-8 mb-24 px-4 lg:px-0 text-light-purple text-left'
     >
-        <h2 className='text-4xl mb-10 text-accent-orange text-center'>{project.title}</h2>
+        <h2 className='text-4xl mb-10 text-accent-orange'>{project.title}</h2>
         <h3 className='text-2xl font-bold mb-4'>Demo:</h3>
         <motion.div 
         initial={{ opacity: 0}}
@@ -120,7 +120,7 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1}}
         transition={{duration: 0.7}}
-        className='flex flex-row flex-wrap gap-8 justify-center mt-24'>
+        className='flex flex-row flex-wrap gap-8 justify-start mt-24'>
             {project.links.map((button, index) => 
                 <CustomLink
                 text={button.title}
