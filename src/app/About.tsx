@@ -25,7 +25,7 @@ export default function About() {
     id='about-section'
     >
       <h2 className={`text-5xl ${caveat.variable} font-special my-4 md:mb-2 text-center`}>Hi, I'm Danielle</h2>
-      <h3 className='text-xl mb-8 text-center'>a <span className='font-bold text-accent-orange'>Frontend Developer</span> passionate about accessibility.</h3>
+      <p className='text-xl mb-8 text-center'>a <span className='font-bold'>Frontend Developer</span> passionate about accessibility.</p>
       <div className='relative mx-auto h-0 pb-[56%]'>
         {iframeLoading ? 
                     <div className='flex flex-col items-center'>
@@ -48,7 +48,7 @@ export default function About() {
       0:57 Please take a look at my body of work, which can be found on my linked portfolio, and use the attached contact information to get in touch about opportunities at your organization.
       1:08 Thanks for taking the time to watch this video, and I look forward to chatting with you soon.</p>
       }
-      <p className='text-md md:text-lg mt-8'>I love working with <span className='text-accent-orange font-bold'>React,</span> <span className='text-accent-orange font-bold'>TypeScript,</span> and <span className='text-accent-orange font-bold'>Next.js</span>, and I have a diverse background in behavior science, project management, and technical instruction.</p>
+      <p className='text-md md:text-lg mt-8'>I love working with <span className='font-bold'>React,</span> <span className='font-bold'>TypeScript,</span> and <span className='font-bold'>Next.js</span>, and I have a diverse background in behavior science, project management, and technical instruction.</p>
       <div className='flex flex-row gap-8 justify-start md:justify-center mt-10'>
         <CustomLink
           text='View Projects'
