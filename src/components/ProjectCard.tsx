@@ -43,7 +43,7 @@ export default function ProjectCard({project}: {project: Project}) {
           project.tags.map((tag: string, index: number) => {return <li key={index} className='bg-main-purple md:bg-none px-1'>{tag}</li>})
         }
       </ul>
-      <div className="flex flex-row gap-4 flex-wrap justify-center">
+      <div className="flex flex-row gap-4 flex-wrap justify-start lg:justify-center">
         <CustomLink
           text={'Demo & Details'}
           style={'primary'}
