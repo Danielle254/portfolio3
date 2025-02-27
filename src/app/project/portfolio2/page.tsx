@@ -26,7 +26,7 @@ const portfolio2Project = {
   links: [
     {
       title: "View Website",
-      link: 'https://danielle254.github.io/portfolio-site2/',
+      link: 'https://djl-portfolio2.vercel.app/',
       style: 'primary'
     },
     {
