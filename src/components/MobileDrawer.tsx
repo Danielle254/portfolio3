@@ -13,7 +13,7 @@ type DrawerProps = {
 export default function MobileDrawer({isOpen, toggleDrawerOpen}: DrawerProps) {
     
   return (
-    <div className={`bg-gray-100 text-main-purple fixed top-0 right-0 flex flex-col justify-between py-12 items-center z-10 h-full w-full transition-transform duration-300 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+    <div className={`bg-gray-100 text-main-purple fixed top-0 right-0 flex flex-col justify-between py-8 items-center z-10 h-full w-full transition-transform duration-300 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <button className='self-end mr-4 border border-transparent hover:border-black' onClick={toggleDrawerOpen}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6" aria-hidden='true'>
             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
