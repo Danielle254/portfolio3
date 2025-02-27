@@ -26,7 +26,7 @@ const portfolio2Project = {
   links: [
     {
       title: "View Website",
-      link: 'https://staging.gridironsurvivor.com/',
+      link: 'https://danielle254.github.io/portfolio-site2/',
       style: 'primary'
     },
     {
