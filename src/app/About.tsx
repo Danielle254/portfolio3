@@ -21,7 +21,7 @@ export default function About() {
     initial={{ opacity: 0}}
     whileInView={{ opacity: 1}}
     transition={{ duration: 0.7 }}
-    className='h-full md:min-h-screen max-w-xl lg:max-w-2xl mx-auto py-8 px-4 mb-32 sm:mb-40 lg:mb-0 text-left'
+    className={`h-full md:min-h-screen max-w-xl lg:max-w-2xl mx-auto py-8 px-4 ${showTranscript ? 'mb-64' : 'mb-32'} sm:mb-40 lg:mb-0 text-left`}
     id='about-section'
     >
       <h2 className={`text-5xl ${caveat.variable} font-special my-4 md:mb-2 text-center`}>Hi, I'm Danielle</h2>
