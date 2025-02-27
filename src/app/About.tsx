@@ -18,7 +18,7 @@ export default function About() {
 
   return (
     <section
-    className={`h-full md:min-h-screen max-w-xl lg:max-w-2xl mx-auto py-8 px-4 ${showTranscript ? 'mb-[700px] sm:mb-[500px]' : 'mb-40 sm:mb-32'} text-left`}
+    className={`h-full md:min-h-screen max-w-xl lg:max-w-2xl mx-auto py-8 px-4 ${showTranscript ? 'mb-[700px] xs:mb-[300px] sm:mb-[500px]' : 'mb-40 sm:mb-32'} text-left`}
     id='about-section'
     >
       <motion.h2 
