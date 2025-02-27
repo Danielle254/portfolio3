@@ -49,7 +49,7 @@ export default function Connect() {
         <Image
           src={montana}
           alt='Danielle Lindblom in Glacier National Park'
-          style={{borderRadius: '5%', border: '1px solid #37183b'}}
+          style={{borderRadius: '4px', border: '1px solid #37183b'}}
           height={300}
         />          
         <p className='text-lg mt-2 mb-6'>Currently residing in Missoula, Montana and open to remote work.</p>
