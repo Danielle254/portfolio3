@@ -14,7 +14,8 @@ interface Project {
     alt: string,
     tags: string[],
     link1: string,
-    link2: string
+    link2: string,
+    link3: string
 }
 
 export default function ProjectCard({project}: {project: Project}) {
@@ -54,6 +55,12 @@ export default function ProjectCard({project}: {project: Project}) {
           text={'Visit Website'}
           style={'secondary'}
           destination={project.link2}
+          newWindow={true}
+        />
+        <CustomLink
+          text={'View Code'}
+          style={'secondary'}
+          destination={project.link3}
           newWindow={true}
         />
       </div>    
