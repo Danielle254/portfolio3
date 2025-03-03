@@ -9,7 +9,7 @@ interface GalleryProject {
     alt: string,
     tags: string[],
     date: string,
-    links: [string, string, string]
+    links: string[]
 }
 
 export default function GalleryCard({project}: {project: GalleryProject}) {

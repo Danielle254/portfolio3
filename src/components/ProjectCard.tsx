@@ -13,7 +13,7 @@ interface Project {
     img: string,
     alt: string,
     tags: string[],
-    links: [string, string, string],
+    links: string[]
 }
 
 export default function ProjectCard({project}: {project: Project}) {
