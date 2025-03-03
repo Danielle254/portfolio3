@@ -14,9 +14,7 @@ const projectData = [
     img: "/projectImages/SDATcover.png",
     alt: "screenshot of service dogs around town project",
     tags: ["React.js", "JavaScript", "Tailwind CSS", "Google Maps API", "Firebase", "Accessibility", "React Router"],
-    link1: "/project/servicedogsaroundtown",
-    link2: "https://servicedogsaroundtown.vercel.app/",
-    link3: "https://github.com/Danielle254/ServiceDogsAroundTown_v2"
+    links: ["/project/servicedogsaroundtown", "https://servicedogsaroundtown.vercel.app/", "https://github.com/Danielle254/ServiceDogsAroundTown_v2"]
   },
   {
     id: 2,
@@ -26,9 +24,7 @@ const projectData = [
     img: "/projectImages/GIScover.png",
     alt: "screenshot of service dogs around town project",
     tags: ["Next.js", "TypeScript", "React.js", "shadcn/ui", "Tailwind CSS", "Jest", "React Testing Library", "Accessibility"],
-    link1: "/project/gridironsurvivor",
-    link2: "https://staging.gridironsurvivor.com/",
-    link3: "https://github.com/LetsGetTechnical/gridiron-survivor"
+    links: ["/project/gridironsurvivor", "https://staging.gridironsurvivor.com/", "https://github.com/LetsGetTechnical/gridiron-survivor" ]
   }
 ]
 
