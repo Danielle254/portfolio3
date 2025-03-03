@@ -17,7 +17,7 @@ type ProjectProps = {
     learnings: string,
     future: string,
     links: {title: string, link: string, style: string}[],
-    screenshots: [string, string]
+    screenshots: string[]
 }
 
 export default function ProjectDetailPage({project}: {project: ProjectProps}) {
