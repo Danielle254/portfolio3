@@ -27,12 +27,12 @@ const portfolio2Project = {
     {
       title: "View Website",
       link: 'https://djl-portfolio2.vercel.app/',
-      style: 'primary'
+      style: 'primary' as const
     },
     {
       title: "View Code",
       link: 'https://github.com/Danielle254/portfolio-site2',
-      style: 'secondary'
+      style: 'secondary' as const
     },
   ],
   screenshots: ['/projectImages/portfolio2screen1.jpg', '/projectImages/portfolio2screen2.jpg']

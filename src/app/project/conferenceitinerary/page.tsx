@@ -33,12 +33,12 @@ const conferenceProject = {
     {
       title: "View Website",
       link: 'https://danielle254.github.io/Conference-Agenda/',
-      style: "primary"
+      style: "primary" as const
     },
     {
       title: "View Code",
       link: 'https://github.com/Danielle254/Conference-Agenda',
-      style: "secondary"
+      style: "secondary" as const
     }
   ],
   screenshots: [ '/projectImages/conferencescreen1.jpg', '/projectImages/conferencescreen2.jpg']

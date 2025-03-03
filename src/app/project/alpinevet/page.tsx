@@ -29,12 +29,12 @@ const alpineVetProject = {
     {
       title: "View Website",
       link: 'https://danielle254.github.io/Alpine-Vet/',
-      style: "primary"
+      style: "primary" as const
     },
     {
       title: "View Code",
       link: 'https://github.com/Danielle254/Alpine-Vet',
-      style: "secondary"
+      style: "secondary" as const
     },
   ],
   screenshots: [ '/projectImages/alpinescreen1.jpg', '/projectImages/alpinescreen2.jpg']

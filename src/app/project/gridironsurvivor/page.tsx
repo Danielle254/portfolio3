@@ -25,17 +25,17 @@ const gisProject = {
     {
       title: "View Website",
       link: 'https://staging.gridironsurvivor.com/',
-      style: 'primary'
+      style: 'primary' as const
     },
     {
       title: "View Code",
       link: 'https://github.com/LetsGetTechnical/gridiron-survivor',
-      style: 'secondary'
+      style: 'secondary' as const
     },
     {
       title: "Pull Requests",
       link: "https://github.com/LetsGetTechnical/gridiron-survivor/pulls?q=is%3Apr+author%3A%40me+is%3Aclosed",
-      style: 'secondary'
+      style: 'secondary' as const
     }
   ],
   screenshots: ['/projectImages/gridironscreen1.jpg', '/projectImages/gridironscreen2.jpg']

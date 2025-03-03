@@ -23,17 +23,17 @@ const sdatv1Project = {
     {
       title: "View Website",
       link: 'https://danielle254.github.io/ServiceDogsAroundTown_v1/',
-      style: 'primary'
+      style: 'primary' as const
     },
     {
       title: "View Code",
       link: 'https://github.com/Danielle254/ServiceDogsAroundTown_v1',
-      style: 'secondary'
+      style: 'secondary' as const
     },
     {
       title: "Version 2",
       link: "/project/servicedogsaroundtown",
-      style: 'secondary'
+      style: 'secondary' as const
     }
   ],
   screenshots: ['/projectImages/sdatv1screen1.jpg', '/projectImages/sdatv1screen2.jpg']

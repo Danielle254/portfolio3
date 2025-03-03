@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'next/link';
 
+export type CustomLinkStyle =  "primary" | "secondary" | "primaryDark" | "secondaryDark"
+
 interface CustomLinkProps {
     text: string;
-    style: string;
+    style: CustomLinkStyle;
     destination: string;
     newWindow: boolean;
 }

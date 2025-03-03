@@ -31,12 +31,12 @@ const calculatorProject = {
     {
       title: "Try It Out",
       link: 'https://danielle254.github.io/Dog-Food-Calculator/',
-      style: 'primary'
+      style: 'primary' as const
     },
     {
       title: "View Code",
       link: 'https://github.com/Danielle254/Dog-Food-Calculator',
-      style: 'secondary'
+      style: 'secondary' as const
     },
   ],
   screenshots: ['/projectImages/calculatorscreen1.jpg', '/projectImages/calculatorscreen2.jpg']

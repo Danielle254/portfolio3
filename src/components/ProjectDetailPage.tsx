@@ -5,6 +5,7 @@ import { motion } from 'motion/react'
 import {RotatingLines} from 'react-loader-spinner'
 import CustomLink from './CustomLink'
 import Image from 'next/image'
+import { CustomLinkStyle } from './CustomLink'
 
 type ProjectProps = {
     title: string,
@@ -16,7 +17,7 @@ type ProjectProps = {
     skills: string[],
     learnings: string,
     future: string,
-    links: {title: string, link: string, style: string}[],
+    links: {title: string, link: string, style: CustomLinkStyle}[],
     screenshots: string[]
 }
 
