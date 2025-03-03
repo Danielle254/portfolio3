@@ -38,8 +38,7 @@ const gisProject = {
       style: 'secondary'
     }
   ],
-  screen1: '/projectImages/gridironscreen1.jpg',
-  screen2: '/projectImages/gridironscreen2.jpg'
+  screenshots: ['/projectImages/gridironscreen1.jpg', '/projectImages/gridironscreen2.jpg']
 }
 
 

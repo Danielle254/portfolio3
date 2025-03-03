@@ -35,8 +35,7 @@ const portfolio2Project = {
       style: 'secondary'
     },
   ],
-  screen1: '/projectImages/portfolio2screen1.jpg',
-  screen2: '/projectImages/portfolio2screen2.jpg'
+  screenshots: ['/projectImages/portfolio2screen1.jpg', '/projectImages/portfolio2screen2.jpg']
 }
 
 

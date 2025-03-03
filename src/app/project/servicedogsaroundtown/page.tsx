@@ -42,8 +42,7 @@ const sdatProject = {
       style: 'secondary'
     }
   ],
-  screen1: '/projectImages/sdatscreen1.jpg',
-  screen2: '/projectImages/sdatscreen2.jpg'
+  screenshots: ['/projectImages/sdatscreen1.jpg', '/projectImages/sdatscreen2.jpg']
 }
 
 

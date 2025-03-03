@@ -41,8 +41,7 @@ const conferenceProject = {
       style: "secondary"
     }
   ],
-  screen1: '/projectImages/conferencescreen1.jpg',
-  screen2: '/projectImages/conferencescreen2.jpg'
+  screenshots: [ '/projectImages/conferencescreen1.jpg', '/projectImages/conferencescreen2.jpg']
 }
 
 

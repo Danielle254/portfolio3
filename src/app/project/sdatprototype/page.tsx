@@ -36,8 +36,7 @@ const sdatv1Project = {
       style: 'secondary'
     }
   ],
-  screen1: '/projectImages/sdatv1screen1.jpg',
-  screen2: '/projectImages/sdatv1screen2.jpg'
+  screenshots: ['/projectImages/sdatv1screen1.jpg', '/projectImages/sdatv1screen2.jpg']
 }
 
 

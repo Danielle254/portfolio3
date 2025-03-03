@@ -39,8 +39,7 @@ const calculatorProject = {
       style: 'secondary'
     },
   ],
-  screen1: '/projectImages/calculatorscreen1.jpg',
-  screen2: '/projectImages/calculatorscreen2.jpg'
+  screenshots: ['/projectImages/calculatorscreen1.jpg', '/projectImages/calculatorscreen2.jpg']
 }
 
 

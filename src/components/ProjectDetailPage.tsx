@@ -17,8 +17,7 @@ type ProjectProps = {
     learnings: string,
     future: string,
     links: {title: string, link: string, style: string}[],
-    screen1: string,
-    screen2: string
+    screenshots: string[]
 }
 
 export default function ProjectDetailPage({project}: {project: ProjectProps}) {
@@ -65,7 +64,7 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
         </motion.section>
         <p className='text-lg/8 whitespace-pre-line mb-10'>{project.description}</p>
         <Image 
-            src={project.screen1}
+            src={project.screenshots[0]}
             alt=''
             sizes='100vw'
             width={0}
@@ -93,7 +92,7 @@ export default function ProjectDetailPage({project}: {project: ProjectProps}) {
             </ul>
         </motion.section>
         <Image 
-            src={project.screen2}
+            src={project.screenshots[1]}
             alt=''
             sizes='100vw'
             width={0}
