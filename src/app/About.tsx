@@ -12,7 +12,7 @@ export default function About() {
   const [iframeLoading, setIframeLoading] = useState<boolean>(true);
   const [showTranscript, setShowTranscript] = useState<boolean>(false);
 
-  function hideLoadingSpinner () {
+  function hideLoadingSpinner (): void {
     setIframeLoading(false);
   }
 
