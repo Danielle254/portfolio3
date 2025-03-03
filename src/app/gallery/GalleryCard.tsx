@@ -9,9 +9,7 @@ interface GalleryProject {
     alt: string,
     tags: string[],
     date: string,
-    path1: string,
-    path2: string,
-    path3: string
+    links: [string, string, string]
 }
 
 export default function GalleryCard({project}: {project: GalleryProject}) {
@@ -51,19 +49,19 @@ export default function GalleryCard({project}: {project: GalleryProject}) {
             <CustomLink
             text='Details'
             style='primaryDark'
-            destination={project.path1}
+            destination={project.links[0]}
             newWindow={false}
             />
             <CustomLink
             text='Website'
             style='secondaryDark'
-            destination={project.path2}
+            destination={project.links[1]}
             newWindow={true}
             />
             <CustomLink
             text='Code'
             style='secondaryDark'
-            destination={project.path3}
+            destination={project.links[2]}
             newWindow={true}
             />
         </motion.div> 
