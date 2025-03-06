@@ -1,0 +1,97 @@
+{
+    "courses": [
+        {
+            "title": "Learn the Command Line",
+            "school": "Codecademy",
+            "date": "January 2022",
+            "id": 1,
+            "type": "basics"
+        },
+        {
+            "title": "Learn Python 3",
+            "school": "Codecademy",
+            "date": "February 2022",
+            "id": 2,
+            "type": "programming"
+        },
+        {
+            "title": "Intermediate Python 3",
+            "school": "Codecademy",
+            "date": "March 2022",
+            "id": 3,
+            "type": "programming"  
+        },
+        {
+            "title": "Learn HTML",
+            "school": "Codecademy",
+            "date": "September 2022",
+            "id": 4,    
+            "type": "basics"      
+        },
+        {
+            "title": "Learn CSS", 
+            "school": "Codecademy",
+            "date": "September 2022",
+            "id": 5,
+            "type": "basics"  
+        },
+    
+        {
+            "title": "Intermediate CSS",
+            "school": "Codecademy",
+            "date": "October 2022",
+            "id": 6,
+            "type": "basics"
+        },
+        {
+            "title": "Learn JavaScript",
+            "school": "Codecademy",
+            "date": "November 2022",
+            "id": 7,
+            "type": "programming"    
+        },
+        {
+            "title": "Learn React",
+            "school": "Codecademy",
+            "date": "November 2022",
+            "id": 8,
+            "type": "frontend"
+        },
+        {
+            "title": "Learn React",
+            "school": "Scrimba",
+            "date": "March 2024",
+            "id": 9,
+            "type": "frontend"    
+        },
+        {
+            "title": "Get Started with Web Accessibility",
+            "school": "Salesforce",
+            "date": "August 2024",
+            "id": 10,
+            "type": "accessibility"    
+        },
+        {
+            "title": "Accessibility Fundamentals",
+            "school": "Microsoft",
+            "date": "August 2024",
+            "id": 11,
+            "type": "accessibility"   
+        },
+        {
+            "title": "Learn TypeScript",
+            "school": "Scrimba",
+            "date": "November 2024",
+            "id": 12,
+            "type": "programming"
+        },
+        {
+            "title": "Learn React Testing",
+            "school": "Codecademy",
+            "date": "January 2025",
+            "id": 13,
+            "type": "frontend"   
+        }
+    ]
+}
+
