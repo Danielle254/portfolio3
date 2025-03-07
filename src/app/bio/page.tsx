@@ -4,6 +4,8 @@ import CustomLink from '@/components/CustomLink';
 import { motion } from 'motion/react'
 import React, { useState } from 'react'
 import {RotatingLines} from 'react-loader-spinner'
+import dogs from '../../../public/dogs.jpg'
+import Image from 'next/image';
 
 export default function Bio() {
     const [iframeLoading, setIframeLoading] = useState<boolean>(true);
@@ -71,7 +73,7 @@ export default function Bio() {
         whileInView={{ opacity: 1}}
         transition={{ duration: 0.7 }}
         className='text-lg/8 whitespace-pre-line mt-4 mb-10'
-        >TLDR:  I have a diverse background in Mechanical Engineering, Continuous Improvement, Lean Manufacturing, Project Management, Behavior Science, Small Business Ownership, and SaaS Implementation. I decided to pursue Software Engineering due to a medical diagnosis - this career path is a great fit for my health and my interests, and I'm excited to do this long-term.
+        >TLDR:  My journey to tech was a winding road. I first did mechanical engineering and ran my own small businesses. Then, a medical diagnosis prompted me to change careers; Software Engineering has been a great fit for my health and my interests, and I'm excited to do this long-term.
         </motion.p>
         <motion.section
         initial={{ opacity: 0}}
@@ -83,7 +85,7 @@ export default function Bio() {
             initial={{ opacity: 0}}
             whileInView={{ opacity: 1}}
             transition={{duration: 0.7}}
-            className='text-2xl font-bold my-10'>Recent Events:</motion.h3>
+            className='text-2xl font-bold my-10'>What's New:</motion.h3>
             <motion.h4
             initial={{ opacity: 0}}
             whileInView={{ opacity: 1}}
@@ -149,6 +151,31 @@ export default function Bio() {
                 >"Elfgorithm" built in the Gridiron Survivor SWE Apprenticeship Program - March 2025
                 </motion.p>
             </div>
+        </motion.section>
+        <motion.section
+        initial={{ opacity: 0}}
+        whileInView={{ opacity: 1}}
+        transition={{duration: 0.7}}
+        className='mb-24'
+        >
+            <motion.h3 
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1}}
+            transition={{duration: 0.7}}
+            className='text-2xl font-bold my-10'>Personal Stuff:</motion.h3>
+            <Image
+            src={dogs}
+            alt='two border collie dogs play in a river in montana, both are looking at the camera intently'
+            style={{borderRadius: '4px', border: '1px solid #37183b'}}
+            height={400}
+            />
+            <motion.p
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1}}
+            transition={{ duration: 0.7 }}
+            className='text-lg/8 whitespace-pre-line mt-4 mb-10'
+            >I grew up in Minnesota, but I moved to beautiful Montana in 2020 to spend more time at Glacier National Park and never left! I love living here and hiking with my two Border Collies - Mica and River.
+            </motion.p>
         </motion.section>
         <motion.div
         initial={{ opacity: 0}}
