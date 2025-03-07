@@ -22,7 +22,7 @@ export default function Education() {
         <br/>
         <strong>I've used many different sources to learn.</strong>
         <br/>
-        Online learning platforms like FreeCodeCamp, Codecademy, Scrimba, and Frontend Masters have been instrumental as well as other online resources like videos, articles, forums, and communities.
+        Online learning platforms like FreeCodeCamp, Codecademy, Scrimba, and Frontend Masters have been instrumental as well as other online resources like videos, articles, forums, and communities. And of course MDN and technical documentation.
         <br/>
         <br/>
         I'm including on this page a documenting of some of those learning certificates for posterity.
