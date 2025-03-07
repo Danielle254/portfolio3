@@ -29,10 +29,10 @@ export default function MobileDrawer({isOpen, toggleDrawerOpen}: DrawerProps) {
               height={100}
               />
             </Link>
+            <Nav 
+            toggleDrawerOpen={toggleDrawerOpen}
+            />
         </div>
-        <Nav 
-        toggleDrawerOpen={toggleDrawerOpen}
-        />
         <Social />
     </div>  
   )

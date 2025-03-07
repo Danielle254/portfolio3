@@ -28,11 +28,11 @@ export default function Sidebar() {
               style={{borderRadius: '50%', border: '1px solid #37183b'}}
               height={100}
             />
-          </Link>          
-        </div>
-        <Nav 
+          </Link>   
+          <Nav 
           toggleDrawerOpen={toggleDrawerOpen}
-        />
+        />       
+        </div>
         <Social />
       </div>
       <div className='md:hidden flex flex-row justify-between my-4 mx-6'>
