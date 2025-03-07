@@ -58,11 +58,11 @@ export default function About() {
       initial={{ opacity: 0}}
       whileInView={{ opacity: 1}}
       transition={{ duration: 0.7 }}
-      className='text-sm text-left'>0:01 Hey there, I'm Danielle Lindblom, a front-end developer from Missoula Montana. I specialize in building accessible websites using React and JavaScript, like my side project that helps service dog handlers navigate their local communities.
-      0:16 I'm currently diving deeper into TypeScript, NextJS, and Unit Testing in my apprenticeship program, where I'm working with my mentor to build and maintain a football survivor pool SaaS product.
-      0:29 Fun fact, I'm actually coming into software engineering after a successful career in manufacturing engineering and continuous improvement. I also spent several years running my own small businesses of professional dog training and life coaching.
-      0:44 Front-end development has been a great fit for me because of my focus on problem solving and people. And I'm particularly interested in building accessibility into all products from the start.
-      0:57 Please take a look at my body of work, which can be found on my linked portfolio, and use the attached contact information to get in touch about opportunities at your organization.
+      className='text-sm text-left'>0:01 Hey there, I'm Danielle Lindblom, a front-end developer from Missoula Montana. I specialize in building accessible websites using React and JavaScript, like my side project that helps service dog handlers navigate their local communities.<br/>
+      0:16 I'm currently diving deeper into TypeScript, NextJS, and Unit Testing in my apprenticeship program, where I'm working with my mentor to build and maintain a football survivor pool SaaS product.<br/>
+      0:29 Fun fact, I'm actually coming into software engineering after a successful career in manufacturing engineering and continuous improvement. I also spent several years running my own small businesses of professional dog training and life coaching.<br/>
+      0:44 Front-end development has been a great fit for me because of my focus on problem solving and people. And I'm particularly interested in building accessibility into all products from the start.<br/>
+      0:57 Please take a look at my body of work, which can be found on my linked portfolio, and use the attached contact information to get in touch about opportunities at your organization.<br/>
       1:08 Thanks for taking the time to watch this video, and I look forward to chatting with you soon.</motion.p>
       }
       <motion.p 
