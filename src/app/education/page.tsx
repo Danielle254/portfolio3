@@ -58,7 +58,7 @@ export default function Education() {
             <h3 className='text-2xl mb-8 text-accent-orange'>Accessibility</h3>
             <div className='flex flex-col gap-6 mb-10'>
                 {coursework.courses.filter((course) => course.type === "accessibility").map((course) => 
-                <div>
+                <div key={course.id}>
                     <p className='font-bold text-xl'>{course.title}</p>
                     <p className='text-md'>{`${course.school}  -  ${course.date}`}</p>
                 </div>
