@@ -5,11 +5,14 @@ export default function Nav({toggleDrawerOpen}: {toggleDrawerOpen: () => void}) 
   return (    
         <nav>
           <ul className='flex flex-col gap-10 pt-16 text-lg font-bold text-center'>
-            <li className='hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded transition duration-300 ease-in-out'>
-              <Link href='/#about-section' onClick={toggleDrawerOpen}>About</Link>
+          <li className='hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded transition duration-300 ease-in-out'>
+              <Link href='/' onClick={toggleDrawerOpen}>Home</Link>
             </li>
             <li className='hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded transition duration-300 ease-in-out'>
               <Link href='/#projects-section' onClick={toggleDrawerOpen}>Portfolio</Link>
+            </li>
+            <li className='hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded transition duration-300 ease-in-out'>
+              <Link href='/bio' onClick={toggleDrawerOpen}>Bio</Link>
             </li>
             <li className='hover:shadow-[0_0_10px_5px_#ffbd59] hover:rounded hover:px-1 transition duration-300 ease-in-out'>
               <Link href='/resume.pdf' target='_blank' locale={false} className='flex flex-row items-center gap-1'>Resume
