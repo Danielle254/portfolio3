@@ -18,7 +18,7 @@ export default function About() {
 
   return (
     <section
-    className={`h-full md:min-h-screen max-w-xl lg:max-w-2xl mx-auto py-8 px-4 ${showTranscript ? 'mb-[700px] xs:mb-[300px] sm:mb-[500px]' : 'mb-40 sm:mb-32'} text-left`}
+    className='h-full md:min-h-screen max-w-xl lg:max-w-2xl mx-auto py-8 px-4 mb-40 sm:mb-48 text-left'
     id='about-section'
     >
       <motion.h2 
@@ -58,7 +58,7 @@ export default function About() {
       initial={{ opacity: 0}}
       whileInView={{ opacity: 1}}
       transition={{ duration: 0.7 }}
-      className='text-sm text-left'>0:01 Hey there, I'm Danielle Lindblom, a front-end developer from Missoula Montana. I specialize in building accessible websites using React and JavaScript, like my side project that helps service dog handlers navigate their local communities.<br/>
+      className='text-sm text-left h-24 overflow-y-scroll'>0:01 Hey there, I'm Danielle Lindblom, a front-end developer from Missoula Montana. I specialize in building accessible websites using React and JavaScript, like my side project that helps service dog handlers navigate their local communities.<br/>
       0:16 I'm currently diving deeper into TypeScript, NextJS, and Unit Testing in my apprenticeship program, where I'm working with my mentor to build and maintain a football survivor pool SaaS product.<br/>
       0:29 Fun fact, I'm actually coming into software engineering after a successful career in manufacturing engineering and continuous improvement. I also spent several years running my own small businesses of professional dog training and life coaching.<br/>
       0:44 Front-end development has been a great fit for me because of my focus on problem solving and people. And I'm particularly interested in building accessibility into all products from the start.<br/>
