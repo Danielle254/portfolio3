@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import React from 'react'
-import ProjectDetailPage from '../../../components/ProjectDetailPage'
+import React from "react";
+import ProjectDetailPage from "../../../components/ProjectDetailPage";
 
 const sdatv1Project = {
   title: "Service Dogs Around Town - Prototype",
@@ -15,37 +15,49 @@ const sdatv1Project = {
   
   August - September 2024`,
   heading: "Key Features",
-  features: ["Create a list of businesses you've visited", "Browser saves the list in local storage", "User can edit or delete entries", "Note which businesses were your favorites", "Sort entries by Date Visited or Business Name. Filter entries by Favorites."],
-  skills: ["React components", "Utilizing local storage", "CRUD app - Create, Read, Update, Delete", "Keyboard Navigable", "Form Validation"],
+  features: [
+    "Create a list of businesses you've visited",
+    "Browser saves the list in local storage",
+    "User can edit or delete entries",
+    "Note which businesses were your favorites",
+    "Sort entries by Date Visited or Business Name. Filter entries by Favorites.",
+  ],
+  skills: [
+    "React components",
+    "Utilizing local storage",
+    "CRUD app - Create, Read, Update, Delete",
+    "Keyboard Navigable",
+    "Form Validation",
+  ],
   learnings: `The purpose of this project was to test out the features and functionality that I had in mind for Service Dogs Around Town. I started pushing myself in my web design and as a result updated the look and feel of the intake form quite a bit to be more professional. I really enjoyed the functional engineering of creating the sorting and filtering features. It was a fun, whimsical project and a big step towards my capstone project's final version.`,
   future: `Version 2 will incorporate the Google Maps API and utilize PocketBase for a database. This first version is a single user, "private" application. After that, it opens up to be a multi-user, "public" application that displays data from all users (except personal notes, which will be kept private to each user).`,
   links: [
     {
       title: "View Website",
-      link: 'https://danielle254.github.io/ServiceDogsAroundTown_v1/',
-      style: 'primary' as const
+      link: "https://danielle254.github.io/ServiceDogsAroundTown_v1/",
+      style: "primary" as const,
     },
     {
       title: "View Code",
-      link: 'https://github.com/Danielle254/ServiceDogsAroundTown_v1',
-      style: 'secondary' as const
+      link: "https://github.com/Danielle254/ServiceDogsAroundTown_v1",
+      style: "secondary" as const,
     },
     {
       title: "Version 2",
       link: "/project/servicedogsaroundtown",
-      style: 'secondary' as const
-    }
+      style: "secondary" as const,
+    },
   ],
-  screenshots: ['/projectImages/sdatv1screen1.jpg', '/projectImages/sdatv1screen2.jpg']
-}
+  screenshots: [
+    "/projectImages/sdatv1screen1.jpg",
+    "/projectImages/sdatv1screen2.jpg",
+  ],
+};
 
-
-export default function SDATprototype() {
+export default function SDATv1() {
   return (
     <>
-    <ProjectDetailPage 
-    project={sdatv1Project}
-    />
+      <ProjectDetailPage project={sdatv1Project} />
     </>
-  )
+  );
 }
