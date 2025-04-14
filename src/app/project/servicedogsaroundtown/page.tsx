@@ -3,22 +3,24 @@
 import React from "react";
 import ProjectDetailPage from "../../../components/ProjectDetailPage";
 
-const sdatProject = {
+const sdatv3Project = {
   title: "Service Dogs Around Town",
   demo: "https://www.loom.com/embed/f552d67328864f02969384f3a6eee2fc?hideEmbedTopBar=true",
   tech: [
+    "Next.js",
+    "TypeScript",
     "React.js",
-    "JavaScript",
     "Google Maps API",
+    "Material UI",
     "Firebase Database",
     "Firebase Authentication",
-    "Tailwind CSS",
+    "Accessibility",
   ],
   description: `This is what I'd call my capstone project. It was broken down into multiple versions and deployments, and is now a multi-user, public application utilizing a database and multiple APIs.
   
   The idea for this project came from a personal problem. As a service dog handler, I was having difficulty remembering which businesses (particularly restuarants) I'd visited where I'd had a good experience. I built this React application using the Google Maps interface to allow users like myself to easily search for and add information about a local business as it relates to the comfort and safety of my service dog.
   
-  August - December 2024`,
+  March - April 2025`,
   heading: "Key Features",
   features: [
     "Login with a Google Account",
@@ -53,12 +55,7 @@ const sdatProject = {
     },
     {
       title: "View Code",
-      link: "https://github.com/Danielle254/ServiceDogsAroundTown_v2",
-      style: "secondary" as const,
-    },
-    {
-      title: "View Project Board",
-      link: "https://github.com/users/Danielle254/projects/1",
+      link: "https://github.com/Danielle254/sdat_v3",
       style: "secondary" as const,
     },
   ],
@@ -71,7 +68,7 @@ const sdatProject = {
 export default function SDATv3() {
   return (
     <>
-      <ProjectDetailPage project={sdatProject} />
+      <ProjectDetailPage project={sdatv3Project} />
     </>
   );
 }
