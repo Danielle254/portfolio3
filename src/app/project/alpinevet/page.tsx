@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import React from 'react'
-import ProjectDetailPage from '../../../components/ProjectDetailPage'
+import React from "react";
+import ProjectDetailPage from "../../../components/ProjectDetailPage";
 
 const alpineVetProject = {
   title: "Local Business Homepage Refresh",
@@ -15,8 +15,20 @@ const alpineVetProject = {
   
   July 2024`,
   heading: "Before/After",
-  features: ["No semantic HTML / Updated to semantic HTML for better accessibility", "Inconsistent font size and color / Updated color palette based on logo", "Old, outdated page layout / New sectioned layout and better readability", "Contact information is non-interactive / Clickable links for phone, email, and address making it easier for visitors to use the information", "Very crowded navigation menu / Reorganized and reduced the navigation menu with better categories"],
-  skills: ["Semantic HTML", "Pure CSS - FlexBox, Grid, Media Queries", "Web Design and User Experience", "Web Accessibility (NOTE: the checkbox hack, described below, is NOT fully web accessible)", "Responsive Design" ],
+  features: [
+    "No semantic HTML / Updated to semantic HTML for better accessibility",
+    "Inconsistent font size and color / Updated color palette based on logo",
+    "Old, outdated page layout / New sectioned layout and better readability",
+    "Contact information is non-interactive / Clickable links for phone, email, and address making it easier for visitors to use the information",
+    "Very crowded navigation menu / Reorganized and reduced the navigation menu with better categories",
+  ],
+  skills: [
+    "Semantic HTML",
+    "Pure CSS - FlexBox, Grid, Media Queries",
+    "Web Design and User Experience",
+    "Web Accessibility (NOTE: the checkbox hack, described below, is NOT fully web accessible)",
+    "Responsive Design",
+  ],
   learnings: `I used the "checkbox hack" for the mobile menu. I could have used JavaScript, but this was a fun feature to learn. The checkbox hack utilizes the "checked" vs "not checked" property of a checkbox instead of "onClick" in JavaScript. I also created the down/up arrows for the mobile submenu manually.
   
   I created a 2-layer menu. It was interesting to learn different methods of creating a submenu for both dektop and mobile views. This is a very common feature in older or complex business websites.`,
@@ -28,25 +40,25 @@ const alpineVetProject = {
   links: [
     {
       title: "View Website",
-      link: 'https://danielle254.github.io/Alpine-Vet/',
-      style: "primary" as const
+      link: "https://danielle254.github.io/Alpine-Vet/",
+      style: "primary" as const,
     },
     {
       title: "View Code",
-      link: 'https://github.com/Danielle254/Alpine-Vet',
-      style: "secondary" as const
+      link: "https://github.com/Danielle254/Alpine-Vet",
+      style: "secondary" as const,
     },
   ],
-  screenshots: [ '/projectImages/alpinescreen1.jpg', '/projectImages/alpinescreen2.jpg']
-}
-
+  screenshots: [
+    "/projectImages/alpinescreen1.jpg",
+    "/projectImages/alpinescreen2.jpg",
+  ],
+};
 
 export default function AlpineVet() {
   return (
     <>
-    <ProjectDetailPage 
-    project={alpineVetProject}
-    />
+      <ProjectDetailPage project={alpineVetProject} />
     </>
-  )
+  );
 }

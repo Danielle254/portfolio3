@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import React from 'react'
-import ProjectDetailPage from '../../../components/ProjectDetailPage'
+import React from "react";
+import ProjectDetailPage from "../../../components/ProjectDetailPage";
 
 const calculatorProject = {
   title: "Calculate How Long Your Dog Food Will Last",
@@ -13,8 +13,22 @@ const calculatorProject = {
   
   July 2024`,
   heading: "Key Features",
-  features: ["Simple, easy to use input form", "Results message displays after form submits", "Ability to reset the form at any time", "Ability to compare 2 different foods and their prices", "Easy ordering via Buy Now button", "Accounts for more than 1 dog in your household"],
-  skills: ["HTML forms and form validation", "Bootstrap for styling", "Vanilla JavaScript with event listeners, reading and writing HTML elements", "Data stored in JSON file and accessed with API call", "Multiple complex JavaScript functions", "Organizing JS functions with modules" ],
+  features: [
+    "Simple, easy to use input form",
+    "Results message displays after form submits",
+    "Ability to reset the form at any time",
+    "Ability to compare 2 different foods and their prices",
+    "Easy ordering via Buy Now button",
+    "Accounts for more than 1 dog in your household",
+  ],
+  skills: [
+    "HTML forms and form validation",
+    "Bootstrap for styling",
+    "Vanilla JavaScript with event listeners, reading and writing HTML elements",
+    "Data stored in JSON file and accessed with API call",
+    "Multiple complex JavaScript functions",
+    "Organizing JS functions with modules",
+  ],
   learnings: `I enjoyed writing multiple functions to perform these calculations and refactoring them into modules for better readability and organization.
   
   I also got good experience with how to break down a problem when encountering errors in the code with such complex calculations.
@@ -30,25 +44,25 @@ const calculatorProject = {
   links: [
     {
       title: "Try It Out",
-      link: 'https://danielle254.github.io/Dog-Food-Calculator/',
-      style: 'primary' as const
+      link: "https://danielle254.github.io/Dog-Food-Calculator/",
+      style: "primary" as const,
     },
     {
       title: "View Code",
-      link: 'https://github.com/Danielle254/Dog-Food-Calculator',
-      style: 'secondary' as const
+      link: "https://github.com/Danielle254/Dog-Food-Calculator",
+      style: "secondary" as const,
     },
   ],
-  screenshots: ['/projectImages/calculatorscreen1.jpg', '/projectImages/calculatorscreen2.jpg']
-}
-
+  screenshots: [
+    "/projectImages/calculatorscreen1.jpg",
+    "/projectImages/calculatorscreen2.jpg",
+  ],
+};
 
 export default function DogFoodCalculator() {
   return (
     <>
-    <ProjectDetailPage 
-    project={calculatorProject}
-    />
+      <ProjectDetailPage project={calculatorProject} />
     </>
-  )
+  );
 }

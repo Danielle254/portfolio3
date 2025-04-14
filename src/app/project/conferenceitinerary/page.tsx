@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import React from 'react'
-import ProjectDetailPage from '../../../components/ProjectDetailPage'
+import React from "react";
+import ProjectDetailPage from "../../../components/ProjectDetailPage";
 
 const conferenceProject = {
   title: "Create Your Own Personal Itinerary from a Conference Agenda",
@@ -15,8 +15,21 @@ const conferenceProject = {
   
   July 2024`,
   heading: "Key Features",
-  features: ["Talks display in chronological order automatically, regardless of order added to itinerary", "User's itinerary stays put, even if they navigate away or refresh the screen. This makes it easy to come back and make changes as needed without having the build their itinerary from scatch each time.", "Option to clear the itinerary and start over", "Ability to print a nicely formatted version of your personal itinerary"],
-  skills: ["React components", "Use of state, props, hooks, and event handlers", "Utilizing local storage", "Sort function that uses the Date object", "Passing information from parent to child and reverse", "Responsive website", "Flexbox and Grid" ],
+  features: [
+    "Talks display in chronological order automatically, regardless of order added to itinerary",
+    "User's itinerary stays put, even if they navigate away or refresh the screen. This makes it easy to come back and make changes as needed without having the build their itinerary from scatch each time.",
+    "Option to clear the itinerary and start over",
+    "Ability to print a nicely formatted version of your personal itinerary",
+  ],
+  skills: [
+    "React components",
+    "Use of state, props, hooks, and event handlers",
+    "Utilizing local storage",
+    "Sort function that uses the Date object",
+    "Passing information from parent to child and reverse",
+    "Responsive website",
+    "Flexbox and Grid",
+  ],
   learnings: `This project really required me to be organized with my file structure, which in turn kept me organized in the execution.
   
   I liked learning about local storage and the print function. I can see these being useful in many other applications.
@@ -32,25 +45,25 @@ const conferenceProject = {
   links: [
     {
       title: "View Website",
-      link: 'https://danielle254.github.io/Conference-Agenda/',
-      style: "primary" as const
+      link: "https://danielle254.github.io/Conference-Agenda/",
+      style: "primary" as const,
     },
     {
       title: "View Code",
-      link: 'https://github.com/Danielle254/Conference-Agenda',
-      style: "secondary" as const
-    }
+      link: "https://github.com/Danielle254/Conference-Agenda",
+      style: "secondary" as const,
+    },
   ],
-  screenshots: [ '/projectImages/conferencescreen1.jpg', '/projectImages/conferencescreen2.jpg']
-}
-
+  screenshots: [
+    "/projectImages/conferencescreen1.jpg",
+    "/projectImages/conferencescreen2.jpg",
+  ],
+};
 
 export default function ConferenceItinerary() {
   return (
     <>
-    <ProjectDetailPage 
-    project={conferenceProject}
-    />
+      <ProjectDetailPage project={conferenceProject} />
     </>
-  )
+  );
 }
