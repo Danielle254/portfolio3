@@ -28,14 +28,15 @@ const sdatv3Project = {
     "Rate, review, and save private and public notes about that business with a custom form",
     "See all existing businesses that have been rated in the library",
     "Read about the app on the About page",
-    "Filter your places by your favorites",
+    "Filter places -- map markers and list view -- by your favorites",
   ],
   skills: [
     "Working with multiple APIs",
     "Managing user data in a database",
     "CRUD app - Create, Read, Update, Delete",
-    "Multiple page app with React Router",
-    "End user testing and incorporating feedback",
+    "Using a UI library",
+    "Better code organization and rigor with TypeScript",
+    "Accessibility testing",
   ],
   learnings: `This project pushed me out of my comfort zone, especially when working with the Google Maps API in React. It was difficult to find documentation to suite my needs, and I did a lot of problem solving by looking at examples of what others had done.
   
@@ -58,10 +59,20 @@ const sdatv3Project = {
       link: "https://github.com/Danielle254/sdat_v3",
       style: "secondary" as const,
     },
+    {
+      title: "Version 2",
+      link: "/project/servicedogsaroundtownv2",
+      style: "secondary" as const,
+    },
+    {
+      title: "Version 1",
+      link: "/project/servicedogsaroundtownv1",
+      style: "secondary" as const,
+    },
   ],
   screenshots: [
-    "/projectImages/sdatscreen1.jpg",
-    "/projectImages/sdatscreen2.jpg",
+    "/projectImages/sdatv3screen1.jpg",
+    "/projectImages/sdatv3screen2.jpg",
   ],
 };
 
