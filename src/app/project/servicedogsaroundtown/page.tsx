@@ -57,21 +57,25 @@ const sdatv3Project = {
       title: "View Website",
       link: "https://servicedogsaroundtown.vercel.app/",
       style: "primary" as const,
+      newWindow: true,
     },
     {
       title: "View Code",
       link: "https://github.com/Danielle254/sdat_v3",
       style: "secondary" as const,
+      newWindow: true,
     },
     {
       title: "Version 2",
       link: "/project/servicedogsaroundtownv2",
       style: "secondary" as const,
+      newWindow: false,
     },
     {
       title: "Version 1",
       link: "/project/servicedogsaroundtownv1",
       style: "secondary" as const,
+      newWindow: false,
     },
   ],
   screenshots: [

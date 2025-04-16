@@ -36,16 +36,19 @@ const sdatv1Project = {
       title: "View Website",
       link: "https://danielle254.github.io/ServiceDogsAroundTown_v1/",
       style: "primary" as const,
+      newWindow: true,
     },
     {
       title: "View Code",
       link: "https://github.com/Danielle254/ServiceDogsAroundTown_v1",
       style: "secondary" as const,
+      newWindow: true,
     },
     {
       title: "Version 2",
       link: "/project/servicedogsaroundtown",
       style: "secondary" as const,
+      newWindow: false,
     },
   ],
   screenshots: [

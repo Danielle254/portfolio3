@@ -14,7 +14,7 @@ const sdatProject = {
     "Firebase Authentication",
     "Tailwind CSS",
   ],
-  description: `This is what I'd call my capstone project. It was broken down into multiple versions and deployments, and is now a multi-user, public application utilizing a database and multiple APIs.
+  description: `This is the second iteration of my capstone project, and a large jump in technology from version 1.
   
   The idea for this project came from a personal problem. As a service dog handler, I was having difficulty remembering which businesses (particularly restuarants) I'd visited where I'd had a good experience. I built this React application using the Google Maps interface to allow users like myself to easily search for and add information about a local business as it relates to the comfort and safety of my service dog.
   
@@ -33,33 +33,45 @@ const sdatProject = {
     "Managing user data in a database",
     "CRUD app - Create, Read, Update, Delete",
     "Multiple page app with React Router",
-    "End user testing and incorporating feedback",
   ],
   learnings: `This project pushed me out of my comfort zone, especially when working with the Google Maps API in React. It was difficult to find documentation to suite my needs, and I did a lot of problem solving by looking at examples of what others had done.
   
   Building the mobile version of this site was also challenging, and it forced me to rethink the entire UI and useability from a mobile device. Having a split screen on mobile was impractical, so I had to design a new layout and flow.
   
   This project really helped me to grow in my resourcefulness and practical problem solving as a developer.`,
-  future: `I have lots of ideas to make the user experience even better. I'd like to add the functionality where the list of places on the sidebar matches what is shown on the map and adjusts itself based on the map window changing, just like Google Maps does. 
+  future: `For Version 3, I plan to update my tech stack to Next.js and TypeScript. I may also use a UI library. I want to make Version 3 the best it can be and add a lot more rigor. For example, more extensive accessibility testing and also adding in unit tests.
   
-  Another big item on the To Do list is to allow multiple users to rate and review the same business location.
-  
-  I've made efforts towards soliciting real end users for testing, and I'm eager to hear their feedback and experiences using the site.`,
+  It's important to me to solicit real end users for testing as well. `,
   links: [
     {
       title: "View Website",
       link: "https://servicedogsaroundtownv2.vercel.app/",
       style: "primary" as const,
+      newWindow: true,
     },
     {
       title: "View Code",
       link: "https://github.com/Danielle254/ServiceDogsAroundTown_v2",
       style: "secondary" as const,
+      newWindow: true,
     },
     {
       title: "View Project Board",
       link: "https://github.com/users/Danielle254/projects/1",
       style: "secondary" as const,
+      newWindow: true,
+    },
+    {
+      title: "Version 1",
+      link: "/project/servicedogsaroundtownv1",
+      style: "secondary" as const,
+      newWindow: false,
+    },
+    {
+      title: "Version 3",
+      link: "/project/servicedogsaroundtown",
+      style: "secondary" as const,
+      newWindow: false,
     },
   ],
   screenshots: [

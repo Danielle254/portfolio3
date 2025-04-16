@@ -47,11 +47,13 @@ const conferenceProject = {
       title: "View Website",
       link: "https://danielle254.github.io/Conference-Agenda/",
       style: "primary" as const,
+      newWindow: true,
     },
     {
       title: "View Code",
       link: "https://github.com/Danielle254/Conference-Agenda",
       style: "secondary" as const,
+      newWindow: true,
     },
   ],
   screenshots: [
