@@ -12,7 +12,7 @@ const projectData = [
     date: "Aug 2024 - Present",
     summary:
       "A personal project that helps service dog handlers (persons with disabilities) navigate their local communities, tracking information that relates to the comfort and safety of their service animals. 3 iterations.",
-    img: "/projectImages/SDATv3cover.png",
+    img: "/projectImages/sdatv3cover.png",
     alt: "screenshot of service dogs around town project",
     tags: [
       "Next.js",
