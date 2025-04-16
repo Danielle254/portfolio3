@@ -15,6 +15,7 @@ const sdatv3Project = {
     "Firebase Database",
     "Firebase Authentication",
     "Accessibility",
+    "Vercel",
   ],
   description: `This is my capstone project as a self-taught developer. It was broken down into multiple versions and deployments, and is now a multi-user, public application utilizing a database and multiple APIs. This is the third and final version of this project.
   

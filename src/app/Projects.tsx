@@ -22,6 +22,7 @@ const projectData = [
       "Material UI",
       "Firebase",
       "Accessibility",
+      "Vercel",
     ],
     links: [
       "/project/servicedogsaroundtown",
