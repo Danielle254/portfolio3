@@ -42,11 +42,13 @@ const alpineVetProject = {
       title: "View Website",
       link: "https://danielle254.github.io/Alpine-Vet/",
       style: "primary" as const,
+      newWindow: true,
     },
     {
       title: "View Code",
       link: "https://github.com/Danielle254/Alpine-Vet",
       style: "secondary" as const,
+      newWindow: true,
     },
   ],
   screenshots: [

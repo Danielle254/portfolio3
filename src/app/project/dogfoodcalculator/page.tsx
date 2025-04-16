@@ -46,11 +46,13 @@ const calculatorProject = {
       title: "Try It Out",
       link: "https://danielle254.github.io/Dog-Food-Calculator/",
       style: "primary" as const,
+      newWindow: true,
     },
     {
       title: "View Code",
       link: "https://github.com/Danielle254/Dog-Food-Calculator",
       style: "secondary" as const,
+      newWindow: true,
     },
   ],
   screenshots: [

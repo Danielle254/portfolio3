@@ -43,11 +43,13 @@ const portfolio2Project = {
       title: "View Website",
       link: "https://djl-portfolio2.vercel.app/",
       style: "primary" as const,
+      newWindow: true,
     },
     {
       title: "View Code",
       link: "https://github.com/Danielle254/portfolio-site2",
       style: "secondary" as const,
+      newWindow: true,
     },
   ],
   screenshots: [
