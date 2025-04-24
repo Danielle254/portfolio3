@@ -67,6 +67,7 @@ const gisProject = {
 export default function GIS() {
   return (
     <>
+      <title>Gridiron Survivor Project</title>
       <ProjectDetailPage project={gisProject} />
     </>
   );

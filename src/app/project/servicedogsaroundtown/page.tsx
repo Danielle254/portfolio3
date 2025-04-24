@@ -88,6 +88,7 @@ const sdatv3Project = {
 export default function SDATv3() {
   return (
     <>
+      <title>Service Dogs Around Town Project</title>
       <ProjectDetailPage project={sdatv3Project} />
     </>
   );

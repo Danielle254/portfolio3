@@ -65,6 +65,7 @@ const conferenceProject = {
 export default function ConferenceItinerary() {
   return (
     <>
+      <title>Conference Itinerary Project</title>
       <ProjectDetailPage project={conferenceProject} />
     </>
   );

@@ -60,6 +60,7 @@ const alpineVetProject = {
 export default function AlpineVet() {
   return (
     <>
+      <title>Alpine Vet Project</title>
       <ProjectDetailPage project={alpineVetProject} />
     </>
   );

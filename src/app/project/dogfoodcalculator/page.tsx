@@ -64,6 +64,7 @@ const calculatorProject = {
 export default function DogFoodCalculator() {
   return (
     <>
+      <title>Dog Food Calculator Project</title>
       <ProjectDetailPage project={calculatorProject} />
     </>
   );

@@ -61,6 +61,7 @@ const portfolio2Project = {
 export default function Portfolio2() {
   return (
     <>
+      <title>Previous Portfolio Project</title>
       <ProjectDetailPage project={portfolio2Project} />
     </>
   );
