@@ -168,13 +168,6 @@ export default function Bio() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
           >
-            "React Testing" by Codecademy - January 2025
-          </motion.p>
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.7 }}
-          >
             "React and TypeScript" by Frontend Masters - March 2025
           </motion.p>
           <motion.p
@@ -182,10 +175,11 @@ export default function Bio() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
           >
-            "Web Accessibility and React" by Frontend Masters - March 2025
+            "Semantic Structure and Navigation" by Deque University (web
+            accessibility) - May 2025
           </motion.p>
         </div>
-        <motion.h4
+        {/*         <motion.h4
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.7 }}
@@ -208,7 +202,7 @@ export default function Bio() {
           >
             "Ability Summit" by Microsoft - March 2025
           </motion.p>
-        </div>
+        </div> */}
         <motion.h4
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -223,16 +217,17 @@ export default function Bio() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
           >
-            "Service Dogs Around Town - Version 3" built with Next.js,
-            TypeScript, and shadcn/ui - March 2025
+            Bespoke Marketing Landing Page for a bakery franchise built for a
+            freelance client - April 2025 | Next.js, React, TypeScript, Tailwind
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
           >
-            "Elfgorithm" built in the Gridiron Survivor SWE Apprenticeship
-            Program - March 2025
+            "Elfgorithm" SaaS website built in the Gridiron Survivor SWE
+            Apprenticeship Program - March 2025 | Next.js, React, TypeScript,
+            shadcn/ui
           </motion.p>
         </div>
       </motion.section>
@@ -248,7 +243,7 @@ export default function Bio() {
           transition={{ duration: 0.7 }}
           className="text-2xl font-bold my-10"
         >
-          Personal Stuff:
+          Non-Work Stuff:
         </motion.h3>
         <Image
           src={dogs}
