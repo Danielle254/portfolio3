@@ -12,10 +12,10 @@ const sdatv3Project = {
     "React.js",
     "Google Maps API",
     "Material UI",
-    "Firebase Database",
-    "Firebase Authentication",
+    "Firebase",
     "Accessibility",
-    "Vercel",
+    "Jest",
+    "React Testing Library",
   ],
   description: `This is my capstone project as a self-taught developer. It was broken down into multiple versions and deployments, and is now a multi-user, public application utilizing a database and multiple APIs. This is the third and final version of this project.
   
