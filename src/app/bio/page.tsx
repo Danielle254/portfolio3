@@ -271,7 +271,7 @@ export default function Bio() {
         <CustomLink
           text="Connect"
           style="primary"
-          destination="/connect"
+          destination="/#connect-section"
           newWindow={false}
         />
         <CustomLink
