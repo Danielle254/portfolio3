@@ -17,7 +17,6 @@ const galleryData = [
       "Firebase",
       "React Router",
     ],
-    date: "Sept - Dec 2024",
     links: [
       "/project/servicedogsaroundtownv2",
       "https://servicedogsaroundtownv2.vercel.app",
@@ -29,7 +28,6 @@ const galleryData = [
     img: "/projectImages/sdatv1cover.jpg",
     alt: "yellow labrador service dog with green vest that says guide dogs for the blind",
     tags: ["React.js", "JavaScript", "CSS", "Local Storage"],
-    date: "Aug - Sept 2024",
     links: [
       "/project/sdatprototype",
       "https://danielle254.github.io/ServiceDogsAroundTown_v1/",
@@ -47,7 +45,6 @@ const galleryData = [
       "React Router",
       "Accessibility",
     ],
-    date: "July - Sept 2024",
     links: [
       "/project/portfolio2",
       "https://djl-portfolio2.vercel.app/",
@@ -59,7 +56,6 @@ const galleryData = [
     img: "/projectImages/conference.png",
     alt: "skyline of a major city reflected in a body of water",
     tags: ["React.js", "JavaScript", "CSS", "Local Storage", "Format PDF"],
-    date: "July 2024",
     links: [
       "/project/conferenceitinerary",
       "https://danielle254.github.io/Conference-Agenda/",
@@ -71,7 +67,6 @@ const galleryData = [
     img: "/projectImages/dogfood.jpg",
     alt: "small mound of kibble dog food on white background",
     tags: ["JavaScript", "Bootstrap", "API", "Form Validation"],
-    date: "July 2024",
     links: [
       "/project/dogfoodcalculator",
       "https://danielle254.github.io/Dog-Food-Calculator/",
@@ -83,7 +78,6 @@ const galleryData = [
     img: "/projectImages/alpineveterinarycare.png",
     alt: "Alpine Veterinary Care logo",
     tags: ["HTML", "CSS", "Accessibility"],
-    date: "July 2024",
     links: [
       "/project/alpinevet",
       "https://danielle254.github.io/Alpine-Vet/",

@@ -9,7 +9,6 @@ const projectData = [
   {
     id: 1,
     title: "Service Dogs Around Town",
-    date: "Aug 2024 - Present",
     summary:
       "A personal project that helps service dog handlers (persons with disabilities) navigate their local communities, tracking information that relates to the comfort and safety of their service animals. 3 iterations.",
     img: "/projectImages/sdatv3cover.png",
@@ -34,7 +33,6 @@ const projectData = [
   {
     id: 2,
     title: "Gridiron Survivor",
-    date: "Oct 2024 - Present",
     summary:
       "Football survivor pool web application built as part of an apprenticeship program. Team project involving agile sprint planning, unit testing, code reviews, and a real customer.",
     img: "/projectImages/GIScover.png",
