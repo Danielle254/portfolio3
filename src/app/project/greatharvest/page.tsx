@@ -12,10 +12,10 @@ const sdatv3Project = {
     "React.js",
     "Google Maps API",
     "Material UI",
-    "Firebase",
+    "Firebase Database",
+    "Firebase Authentication",
     "Accessibility",
-    "Jest",
-    "React Testing Library",
+    "Vercel",
   ],
   description: `This is my capstone project as a self-taught developer. It was broken down into multiple versions and deployments, and is now a multi-user, public application utilizing a database and multiple APIs. This is the third and final version of this project.
   
@@ -89,7 +89,7 @@ export default function SDATv3() {
   return (
     <>
       <ProjectDetailPage project={sdatv3Project} />
-      <title>Service Dogs Around | Danielle Lindblom Portfolio</title>
+      <title>Great Harvest | Danielle Lindblom Portfolio</title>
     </>
   );
 }

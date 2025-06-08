@@ -2,11 +2,6 @@
 
 import React from "react";
 import ProjectDetailPage from "../../../components/ProjectDetailPage";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Gridiron Survivor",
-};
 
 const gisProject = {
   title: "Gridiron Survivor",
@@ -73,6 +68,7 @@ export default function GIS() {
   return (
     <>
       <ProjectDetailPage project={gisProject} />
+      <title>Gridiron Survivor | Danielle Lindblom Portfolio</title>
     </>
   );
 }

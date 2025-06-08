@@ -2,11 +2,6 @@
 
 import React from "react";
 import ProjectDetailPage from "../../../components/ProjectDetailPage";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Conference Itinerary",
-};
 
 const conferenceProject = {
   title: "Create Your Own Personal Itinerary from a Conference Agenda",
@@ -71,6 +66,7 @@ export default function ConferenceItinerary() {
   return (
     <>
       <ProjectDetailPage project={conferenceProject} />
+      <title>Conference Itinerary | Danielle Lindblom Portfolio</title>
     </>
   );
 }

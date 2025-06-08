@@ -6,11 +6,6 @@ import React, { useState } from "react";
 import { RotatingLines } from "react-loader-spinner";
 import dogs from "../../../public/dogs.jpg";
 import Image from "next/image";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Bio",
-};
 
 export default function Bio() {
   const [iframeLoading, setIframeLoading] = useState<boolean>(true);
@@ -22,6 +17,7 @@ export default function Bio() {
 
   return (
     <div className="max-w-3xl mx-auto pt-8 mb-24 px-4 lg:px-0 text-light-purple text-left">
+      <title>About Me | Danielle Lindblom Portfolio</title>
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
