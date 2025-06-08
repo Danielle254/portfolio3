@@ -2,6 +2,11 @@
 
 import React from "react";
 import ProjectDetailPage from "../../../components/ProjectDetailPage";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Alpine Vet",
+};
 
 const alpineVetProject = {
   title: "Local Business Homepage Refresh",
@@ -60,7 +65,6 @@ const alpineVetProject = {
 export default function AlpineVet() {
   return (
     <>
-      <title>Alpine Vet Project</title>
       <ProjectDetailPage project={alpineVetProject} />
     </>
   );

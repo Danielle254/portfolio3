@@ -2,6 +2,11 @@
 
 import React from "react";
 import ProjectDetailPage from "../../../components/ProjectDetailPage";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Service Dogs Around Town",
+};
 
 const sdatv3Project = {
   title: "Service Dogs Around Town",
@@ -88,7 +93,6 @@ const sdatv3Project = {
 export default function SDATv3() {
   return (
     <>
-      <title>Service Dogs Around Town Project</title>
       <ProjectDetailPage project={sdatv3Project} />
     </>
   );

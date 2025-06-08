@@ -2,6 +2,11 @@
 
 import React from "react";
 import ProjectDetailPage from "../../../components/ProjectDetailPage";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Previous Portfolio",
+};
 
 const portfolio2Project = {
   title: "Personal Portfolio - Version 2",
@@ -61,7 +66,6 @@ const portfolio2Project = {
 export default function Portfolio2() {
   return (
     <>
-      <title>Previous Portfolio Project</title>
       <ProjectDetailPage project={portfolio2Project} />
     </>
   );

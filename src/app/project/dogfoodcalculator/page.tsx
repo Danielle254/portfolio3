@@ -2,6 +2,11 @@
 
 import React from "react";
 import ProjectDetailPage from "../../../components/ProjectDetailPage";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dog Food Calculator",
+};
 
 const calculatorProject = {
   title: "Calculate How Long Your Dog Food Will Last",
@@ -64,7 +69,6 @@ const calculatorProject = {
 export default function DogFoodCalculator() {
   return (
     <>
-      <title>Dog Food Calculator Project</title>
       <ProjectDetailPage project={calculatorProject} />
     </>
   );

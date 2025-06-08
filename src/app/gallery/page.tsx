@@ -3,6 +3,11 @@
 import React from "react";
 import GalleryCard from "./GalleryCard";
 import { motion } from "motion/react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Other Projects",
+};
 
 const galleryData = [
   {
@@ -94,7 +99,6 @@ export default function Gallery() {
       transition={{ duration: 0.7 }}
       className="max-w-5xl mx-auto pt-8 mb-24 px-4 lg:px-0 text-light-purple text-left"
     >
-      <title>Other Projects - Danielle Lindblom Portfolio</title>
       <h2 className="text-4xl mb-10 text-accent-orange text-center">
         More Projects
       </h2>
