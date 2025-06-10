@@ -8,11 +8,31 @@ import Link from "next/link";
 const projectData = [
   {
     id: 1,
+    title: "Great Harvest",
+    summary:
+      "Freelance project for client Great Harvest Bread to attract new franchisees with a bespoke marketing landing page.",
+    img: "/projectImages/greatharvestcover.jpg",
+    alt: "",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "React.js",
+      "Tailwind CSS",
+      "Accessibility",
+    ],
+    links: [
+      "/project/greatharvest",
+      "https://franchising.greatharvest.com/",
+      "https://github.com/kepsteen/great-harvest-landing-page",
+    ],
+  },
+  {
+    id: 2,
     title: "Service Dogs Around Town",
     summary:
-      "A personal project that helps service dog handlers (persons with disabilities) navigate their local communities, tracking information that relates to the comfort and safety of their service animals. 3 iterations.",
+      "Personal project that helps service dog handlers (persons with disabilities) navigate their local communities.",
     img: "/projectImages/sdatv3cover.png",
-    alt: "screenshot of service dogs around town project",
+    alt: "",
     tags: [
       "Next.js",
       "TypeScript",
@@ -21,8 +41,7 @@ const projectData = [
       "Material UI",
       "Firebase",
       "Accessibility",
-      "Jest",
-      "React Testing Library",
+      "Vercel",
     ],
     links: [
       "/project/servicedogsaroundtown",
@@ -31,12 +50,12 @@ const projectData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Gridiron Survivor",
     summary:
-      "Football survivor pool web application built as part of an apprenticeship program. Team project involving agile sprint planning, unit testing, code reviews, and a real customer.",
+      "Football survivor pool SaaS web application built and maintained as part of an apprenticeship program.",
     img: "/projectImages/GIScover.png",
-    alt: "screenshot of service dogs around town project",
+    alt: "",
     tags: [
       "Next.js",
       "TypeScript",
