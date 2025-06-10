@@ -21,9 +21,7 @@ const sdatv3Project = {
   
   The idea for this project came from a personal problem. As a service dog handler, I was having difficulty remembering which businesses (particularly restuarants) I'd visited where I'd had a good experience. I built this React application using the Google Maps interface to allow users like myself to easily search for and add information about a local business as it relates to the comfort and safety of my service dog.
 
-  There are links to the details on Versions 1 and 2 at the bottom of the page.
-  
-  March - April 2025`,
+  There are links to the details on Versions 1 and 2 at the bottom of the page.`,
   heading: "Key Features",
   features: [
     "Login with a Google Account",

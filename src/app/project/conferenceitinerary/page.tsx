@@ -11,9 +11,7 @@ const conferenceProject = {
 
   This is something I wish I had when attending conferences in the past! I'd be circling my preferred talks on a paper printout. This is especially helpful when there are multiple talks occurring at the same time. When adding talks to their itinerary, they sort automatically in chornological order.
 
-  Finally, there is the option to print your itinerary, which is formatted for ease of use.
-  
-  July 2024`,
+  Finally, there is the option to print your itinerary, which is formatted for ease of use.`,
   heading: "Key Features",
   features: [
     "Talks display in chronological order automatically, regardless of order added to itinerary",

@@ -16,9 +16,7 @@ const gisProject = {
   ],
   description: `Gridiron Survivor is a football survivor pool web application built as part of a software development apprenticeship program. I worked on this project from October 2024 - February 2025, focusing on addressing user experience issues including accessibility. We are currently in the process of standing up a new team project.
 
-  This site allows users to stand up a league with several members, then those members can make multiple picks from a list of NFL games happening that week. The game's outcome determines whose picks "survive" and live to do another round the next week. Whoever is still standing at the end of the season typically wins a large prize!
-  
-  October 2024 - February 2025`,
+  This site allows users to stand up a league with several members, then those members can make multiple picks from a list of NFL games happening that week. The game's outcome determines whose picks "survive" and live to do another round the next week. Whoever is still standing at the end of the season typically wins a large prize!`,
   heading: "Key Contributions",
   features: [
     "Removed distracting, obsolete information from the site",
