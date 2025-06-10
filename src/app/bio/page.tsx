@@ -275,7 +275,7 @@ export default function Bio() {
           newWindow={false}
         />
         <CustomLink
-          text={"View Resume"}
+          text={"Download Resume (pdf)"}
           style={"secondary"}
           destination={"/resume.pdf"}
           newWindow={true}
