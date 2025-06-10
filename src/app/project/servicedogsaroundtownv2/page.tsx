@@ -16,9 +16,7 @@ const sdatProject = {
   ],
   description: `This is the second iteration of my capstone project, and a large jump in technology from version 1.
   
-  The idea for this project came from a personal problem. As a service dog handler, I was having difficulty remembering which businesses (particularly restuarants) I'd visited where I'd had a good experience. I built this React application using the Google Maps interface to allow users like myself to easily search for and add information about a local business as it relates to the comfort and safety of my service dog.
-  
-  August - December 2024`,
+  The idea for this project came from a personal problem. As a service dog handler, I was having difficulty remembering which businesses (particularly restuarants) I'd visited where I'd had a good experience. I built this React application using the Google Maps interface to allow users like myself to easily search for and add information about a local business as it relates to the comfort and safety of my service dog.`,
   heading: "Key Features",
   features: [
     "Login with a Google Account",
@@ -83,8 +81,8 @@ const sdatProject = {
 export default function SDATv2() {
   return (
     <>
-      <title>Service Dogs Around Town v2 Project</title>
       <ProjectDetailPage project={sdatProject} />
+      <title>Service Dogs Around Town v2 | Danielle Lindblom Portfolio</title>
     </>
   );
 }

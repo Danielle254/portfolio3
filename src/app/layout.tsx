@@ -1,10 +1,5 @@
-import type { Metadata } from "next";
 import Sidebar from "@/components/Sidebar";
 import "./globals.css";
-
-export const metadata: Metadata = {
-  title: "Danielle Lindblom Portfolio",
-};
 
 export default function RootLayout({
   children,

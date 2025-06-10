@@ -11,9 +11,7 @@ const alpineVetProject = {
 
   Their existing website was crowded, outdated, and had several accessibility issues.
 
-  I wanted to create a more user-friendly, easy to navigate homepage for the veterinarian's customers.
-  
-  July 2024`,
+  I wanted to create a more user-friendly, easy to navigate homepage for the veterinarian's customers.`,
   heading: "Before/After",
   features: [
     "No semantic HTML / Updated to semantic HTML for better accessibility",
@@ -60,8 +58,8 @@ const alpineVetProject = {
 export default function AlpineVet() {
   return (
     <>
-      <title>Alpine Vet Project</title>
       <ProjectDetailPage project={alpineVetProject} />
+      <title>Alpine Vet | Danielle Lindblom Portfolio</title>
     </>
   );
 }

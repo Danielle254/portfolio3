@@ -17,7 +17,7 @@ export default function Bio() {
 
   return (
     <div className="max-w-3xl mx-auto pt-8 mb-24 px-4 lg:px-0 text-light-purple text-left">
-      <title>About Me - Danielle Lindblom Portfolio</title>
+      <title>About Me | Danielle Lindblom Portfolio</title>
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -271,7 +271,7 @@ export default function Bio() {
         <CustomLink
           text="Connect"
           style="primary"
-          destination="/connect"
+          destination="/#connect-section"
           newWindow={false}
         />
         <CustomLink

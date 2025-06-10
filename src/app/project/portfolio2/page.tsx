@@ -17,9 +17,7 @@ const portfolio2Project = {
 
   I enjoyed the opportunity to use Sass/SCSS, and it made standardizing things like links much easier than vanilla CSS. This was also my first attempt at using React Router, and it went quite well. I had some difficulties with deployment on GitHub Pages because of the routing but was able to get those resolved. 
 
-  Overall, there was a LOT of learning on this project, and it moved me forward as a developer. It was also nice to have something that I felt represented me well and reflected who I was as a developer.
-  
-  July - September 2024`,
+  Overall, there was a LOT of learning on this project, and it moved me forward as a developer. It was also nice to have something that I felt represented me well and reflected who I was as a developer.`,
   heading: "Key Features",
   features: [
     "Light and Dark mode with toggle",
@@ -61,8 +59,8 @@ const portfolio2Project = {
 export default function Portfolio2() {
   return (
     <>
-      <title>Previous Portfolio Project</title>
       <ProjectDetailPage project={portfolio2Project} />
+      <title>Previous Portfolio | Danielle Lindblom Portfolio</title>
     </>
   );
 }

@@ -11,9 +11,7 @@ const sdatv1Project = {
 
   The idea for this project came from me, as a service dog handler, not being able to remember which businesses (particularly restuarants) I've visited were a good experience. Version 1 of this application allows users to capture information about the business and add a personal note regarding the comfort and safety of their service dog when visiting.
 
-  Version 2 incorporates the Google Maps API and Firebase database.
-  
-  August - September 2024`,
+  Version 2 incorporates the Google Maps API and Firebase database.`,
   heading: "Key Features",
   features: [
     "Create a list of businesses you've visited",
@@ -60,8 +58,8 @@ const sdatv1Project = {
 export default function SDATv1() {
   return (
     <>
-      <title>Service Dogs Around Town Prototype Project</title>
       <ProjectDetailPage project={sdatv1Project} />
+      <title>Service Dogs Around Town v1 | Danielle Lindblom Portfolio</title>
     </>
   );
 }
