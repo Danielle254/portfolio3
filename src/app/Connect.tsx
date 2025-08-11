@@ -100,7 +100,8 @@ export default function Connect() {
           height={300}
         />
         <p className="text-lg mt-2 mb-6">
-          Currently residing in Missoula, Montana and open to remote work.
+          Currently residing in Minneapolis, Minnesota and open to new
+          opportunities.
         </p>
         <CustomLink
           text={"Download Resume (pdf)"}
