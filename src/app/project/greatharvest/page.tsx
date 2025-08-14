@@ -16,10 +16,10 @@ const greatHarvestProject = {
   features: [
     "Detailed accessibility testing",
     "Identifying and resolving 24+ accessibility issues",
-    "&quotOur History&quot section",
-    "&quotFAQ&quot section",
+    "Our History section",
+    "FAQ section",
     "Building an accessible accordion for the FAQ section",
-    "&quotOur Revolutionary Process&quot section",
+    "Our Revolutionary Process section",
     "Footer section",
   ],
   skills: [
